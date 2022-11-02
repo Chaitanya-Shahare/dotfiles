@@ -1,0 +1,47 @@
+snippet doctype "html boilerplate" b
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>${1:title}</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="${2:css file path}"
+	</head>
+	<body>
+		${3}
+	</body>
+<html>
+endsnippet
+
+snippet opengraph "adding opengraph tags" b
+	<!-- --------------------------------------------Meta tags-------------------------------------------------- -->
+
+	<!-- HTML Meta Tags -->
+	<meta name="description" content="${1:description}">
+
+	<!-- Facebook Meta Tags -->
+	<meta property="og:url" content="${2:URL}">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="${3:title}">
+	<meta property="og:description" content="$1">
+	<meta property="og:image" content="${4:imageURL}">
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta property="twitter:domain" content="chaitanyashahare.com">
+	<meta property="twitter:url" content="$2">
+	<meta name="twitter:title" content="$3">
+	<meta name="twitter:description" content="$1">
+	<meta name="twitter:image" content="$4">
+
+	<!-- -----------------------------------------------xxxx---------------------------------------------------- -->
+
+endsnippet
+
+snippet favicon "adding favicon" b
+	<!-- ----------------------------------------------favicon-------------------------------------------------- -->
+	<link rel="icon" type="image/x-icon" href="${1:/images/favicon.ico}">
+	<!-- -----------------------------------------------xxxx---------------------------------------------------- -->
+
+
+endsnippet
