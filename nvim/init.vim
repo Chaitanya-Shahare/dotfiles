@@ -16,6 +16,7 @@ call plug#begin()
 	Plug 'psliwka/vim-smoothie'
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'scrooloose/NERDTree'
+	Plug 'ryanoasis/vim-devicons'
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'ap/vim-css-color'
     Plug 'jiangmiao/auto-pairs'
