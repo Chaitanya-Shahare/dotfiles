@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+/Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws_89e9c724386f306e4c1c4ea9fb81a443/.metadata/.plugins/org.eclipse.jdt.core
-3842426239.index
-1865797976.index
-2413319203.index
