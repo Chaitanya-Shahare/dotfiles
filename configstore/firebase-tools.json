@@ -1,0 +1,46 @@
+{
+	"analytics-uuid": "19cd6748-a357-48d8-aba1-ec71f17d107b",
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1672383294864
+	},
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "102680163924459353394",
+		"email": "shaharechaitanya3@gmail.com",
+		"email_verified": true,
+		"at_hash": "flkDGiEpXCkLHdPf_Lqb_Q",
+		"iat": 1671864739,
+		"exp": 1671868339
+	},
+	"tokens": {
+		"expires_at": 1672386899273,
+		"refresh_token": "1//0guVXbjkWrN1dCgYIARAAGBASNwF-L9Ir8b8_rTUogueMXWicAMNQdR0GHv4G5-JwvbgZ73thUsa0tumLWIJxy516tzHbfF7Jj-Q",
+		"scopes": [],
+		"access_token": "ya29.a0AX9GBdV5f21oZ8iTuiDJgRCXZhMAL0O2lx3S9GKTqSq6y8SSlRV2QBn1-vQb-PE67__5kRLn4ruC4IQdfwBolEWJqmLl4qmcZ8c_5rbpW0CsyIY0A9nLoaHIC7yUJ16mzqxZOHCEkSXYextgYqulRNJl8Vz423s2hzMIMwaCgYKAV0SAQASFQHUCsbCDZvYAj5IJbn-UMz0CFJ0Uw0173",
+		"expires_in": 3599,
+		"scope": "openid https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/firebase",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjhlMGFjZjg5MWUwOTAwOTFlZjFhNWU3ZTY0YmFiMjgwZmQxNDQ3ZmEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTAyNjgwMTYzOTI0NDU5MzUzMzk0IiwiZW1haWwiOiJzaGFoYXJlY2hhaXRhbnlhM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6Ii1mY3hyaF9fbFM1bnE3Vl9aZU5rZEEiLCJpYXQiOjE2NzIzODMzMDIsImV4cCI6MTY3MjM4NjkwMn0.NEultBnWFUA7Xl37-GWA4OVy5jTq1XkFYPccwJAXhkI9hq9x7Cfhs6QpnpUuu5ZN_ODOn6G_adSxx_m4v8lPfVP_sqIE0jaLwf2Lw-M9l8kV_l-bVGvNL3wkfEEBVChmlaJ9Luf1dLcWqNS-Hsz5FQO5DD5N26aiGyqQzRPCb_xjCt19SlLdL3hRUAo1ek3i4Fj3AYS_FYTa3k4cMbj_nE9nQ16ojNWDssJkjVMQ4rgxL08XA_lPwyfUyBXeY_sPxpQyaPm6tfb7igopJ9KhNCGMWM8ZaO5oquWGLtPom1sywjUBcFrDiVZb-jYgyMdY4lv6EkCiqtA0zakFwf2Iaw"
+	},
+	"activeProjects": {
+		"/Users/chaitanyashahare/Documents/js-MERN/L15/p1": "evenoddreact",
+		"/Users/chaitanyashahare/Documents/js-MERN/L15/p2": "square-root-app",
+		"/Users/chaitanyashahare/Documents/js-MERN/L16/p1": "even-odd-nav",
+		"/Users/chaitanyashahare/Documents/js-MERN/L16/p2": "reactprojectwithform",
+		"/Users/chaitanyashahare/Documents/js-MERN/L17/p1_firebaseauth": "react-app-auth-49661",
+		"/Users/chaitanyashahare/Documents/js-MERN/L19/p1": "reactfirebasedatabase-39588",
+		"/Users/chaitanyashahare/Documents/js-MERN/L19/p2-fb": "fbdbfeedback",
+		"/Users/chaitanyashahare/Documents/js-MERN/L19/p3_subjects": "fbdblanguages",
+		"/Users/chaitanyashahare/Documents/js-MERN/L20/p1_otp": "reactdbotp"
+	}
+}

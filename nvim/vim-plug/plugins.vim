@@ -38,5 +38,18 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'alvan/vim-closetag'
 	" COC autocomplete
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}	
+	" Zenburn theme
+	Plug 'jnurmine/Zenburn'
+	" Kanagawa theme
+	Plug 'rebelot/kanagawa.nvim'
+	" Gruvbox-material theme
+	Plug 'sainnhe/gruvbox-material'
+	" Vim Hybrid material theme
+	Plug 'kristijanhusak/vim-hybrid-material'
+	" Markdown preview
+	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+	" Image copy clipboard
+	Plug 'ekickx/clipboard-image.nvim'
+
 
 call plug#end()

@@ -7,6 +7,9 @@
     "coc-json": ">=1.6.1",
     "coc-python": ">=1.2.13",
     "coc-tsserver": ">=1.11.12",
-    "coc-markdownlint": ">=1.26.0"
+    "coc-markdownlint": ">=1.26.0",
+    "@yaegassy/coc-tailwindcss3": ">=0.4.5",
+    "coc-java": ">=1.5.5",
+    "coc-vimtex": ">=1.1.5"
   }
 }

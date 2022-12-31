@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws_67c952b2b7614733e6e514aee3a6b13b/.metadata/.plugins/org.eclipse.jdt.core
+3842426239.index
+1865797976.index

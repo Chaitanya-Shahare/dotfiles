@@ -1,0 +1,36 @@
+snippet pdf "make a pdf using pandoc" b
+---
+title: 
+- ${1:title}
+author:
+- Chaitanya Shahare
+numbersections: true
+header-includes: |
+	\usepackage{float}
+	\let\origfigure\figure
+	\let\endorigfigure\endfigure 
+	\renewenvironment{figure}[1][2] {
+		\expandafter\origfigure\expandafter[H]
+		} {
+		\endorigfigure
+		}
+---
+
+\maketitle
+\tableofcontents
+
+${2}
+endsnippet
+
+snippet newpage "New lecture no. date & day" b
+---
+
+\newpage
+
+> Lecture ${1:#}
+
+> ${2:Date}
+> ${3:Day}
+
+${4}
+endsnippet
