@@ -21,6 +21,7 @@ call plug#begin()
 	Plug 'ap/vim-css-color'
     Plug 'jiangmiao/auto-pairs'
 	Plug 'preservim/vim-markdown'
+	Plug 'vimwiki/vimwiki'
 " Colorschemes
 	Plug 'EdenEast/nightfox.nvim'
 	Plug 'rebelot/kanagawa.nvim'
@@ -40,6 +41,7 @@ filetype on
 filetype plugin on
 filetype indent on
 syntax on
+set number
 set relativenumber
 set nowrap
 set cursorline
@@ -53,6 +55,8 @@ set mouse=a
 set splitright
 set splitbelow
 set noshowmode
+set listchars=tab:\|\ 
+set list
 
 colo kanagawa
 
@@ -64,7 +68,7 @@ highlight NonText guibg=none
 " ##################               REMAPS                 #########################
 " #################################################################################
 
-let mapleader=" "
+" let mapleader=" "
 imap jj <C-{>
 cmap jj <C-{>
 tnoremap jj <C-\><C-N>
@@ -106,7 +110,7 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 nnoremap <C-p> :FZF<CR>
-nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-n> :NERDTreeToggle<CR>
 
 autocmd Filetype markdown source ~/.config/nvim/scripts/markdown.vim
 
@@ -162,3 +166,8 @@ let g:closetag_close_shortcut = '<leader>>'
 
 " vim-markdown --------------------------------------------------------------------
 let g:vim_markdown_folding_disabled = 1
+
+" vimwiki
+let g:vimwiki_list = [{'path': '~/Documents/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
+let g:vimwiki_global_ext = 0
