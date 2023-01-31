@@ -8,7 +8,7 @@
 		"node8DeploysDisabledAfter": 1613390400000,
 		"node8RuntimeDisabledAfter": 1615809600000,
 		"node8WarnAfter": 1600128000000,
-		"fetched": 1672383294864
+		"fetched": 1674979199449
 	},
 	"usage": true,
 	"user": {
@@ -23,14 +23,14 @@
 		"exp": 1671868339
 	},
 	"tokens": {
-		"expires_at": 1672386899273,
+		"expires_at": 1674982802899,
 		"refresh_token": "1//0guVXbjkWrN1dCgYIARAAGBASNwF-L9Ir8b8_rTUogueMXWicAMNQdR0GHv4G5-JwvbgZ73thUsa0tumLWIJxy516tzHbfF7Jj-Q",
 		"scopes": [],
-		"access_token": "ya29.a0AX9GBdV5f21oZ8iTuiDJgRCXZhMAL0O2lx3S9GKTqSq6y8SSlRV2QBn1-vQb-PE67__5kRLn4ruC4IQdfwBolEWJqmLl4qmcZ8c_5rbpW0CsyIY0A9nLoaHIC7yUJ16mzqxZOHCEkSXYextgYqulRNJl8Vz423s2hzMIMwaCgYKAV0SAQASFQHUCsbCDZvYAj5IJbn-UMz0CFJ0Uw0173",
+		"access_token": "ya29.a0AVvZVsq5oUwRI_--p_YNlQaeV4K57YnvKBAqgLgkphDL4CO5yNfHHFjDFzoUFlu_jx7guUnxOaZk7J_ksD-gh2MLe1nHa7yynW3pu1g0uBTsC53VycgFUxJvkbk2wTSXCOD1Sqbeim6kGNG4H-cpd0M6El4G9Ih11so0mSMaCgYKAeoSAQASFQGbdwaIf2trcCS8YD8VfgWYDeO0Pg0174",
 		"expires_in": 3599,
-		"scope": "openid https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/firebase",
+		"scope": "https://www.googleapis.com/auth/cloud-platform openid https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/firebase",
 		"token_type": "Bearer",
-		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjhlMGFjZjg5MWUwOTAwOTFlZjFhNWU3ZTY0YmFiMjgwZmQxNDQ3ZmEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTAyNjgwMTYzOTI0NDU5MzUzMzk0IiwiZW1haWwiOiJzaGFoYXJlY2hhaXRhbnlhM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6Ii1mY3hyaF9fbFM1bnE3Vl9aZU5rZEEiLCJpYXQiOjE2NzIzODMzMDIsImV4cCI6MTY3MjM4NjkwMn0.NEultBnWFUA7Xl37-GWA4OVy5jTq1XkFYPccwJAXhkI9hq9x7Cfhs6QpnpUuu5ZN_ODOn6G_adSxx_m4v8lPfVP_sqIE0jaLwf2Lw-M9l8kV_l-bVGvNL3wkfEEBVChmlaJ9Luf1dLcWqNS-Hsz5FQO5DD5N26aiGyqQzRPCb_xjCt19SlLdL3hRUAo1ek3i4Fj3AYS_FYTa3k4cMbj_nE9nQ16ojNWDssJkjVMQ4rgxL08XA_lPwyfUyBXeY_sPxpQyaPm6tfb7igopJ9KhNCGMWM8ZaO5oquWGLtPom1sywjUBcFrDiVZb-jYgyMdY4lv6EkCiqtA0zakFwf2Iaw"
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImFmYzRmYmE2NTk5ZmY1ZjYzYjcyZGM1MjI0MjgyNzg2ODJmM2E3ZjEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTAyNjgwMTYzOTI0NDU5MzUzMzk0IiwiZW1haWwiOiJzaGFoYXJlY2hhaXRhbnlhM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6InpXemJHM0hYZzc2Vl90X095a0RYZFEiLCJpYXQiOjE2NzQ5NzkyMDMsImV4cCI6MTY3NDk4MjgwM30.CdI2zmgkuI7rl-vuN-KQDxT5MBw4x74J7Op3Y17eh-bRXr3sNhHBTLrbWukoLQCGnak9j6Q_8uInBZN-t-FAEhluQg0AV6lijKsA_lQrsJ_P5ICMhMLej_fKPJS1ftfc2Kr25TxpyXOTxRrnzL7ewoJ2ZjScjYNmpczG5fBhkOsruB8iodiKSse86mAcp_iYxU5BJqIvD3fKSUTmelmwDyn_C_wSZucHKR2BlQa2MnZpwYUUF1iat-XIXHEaQARTEqpDd8a0u80TcDc3T_FWb7MJyNThQHy4o2-6AUzvnRxSVBG9H8BwHHKD25LajCsyIh4T2gQvYCoyK71A1Tz3dw"
 	},
 	"activeProjects": {
 		"/Users/chaitanyashahare/Documents/js-MERN/L15/p1": "evenoddreact",
@@ -41,6 +41,14 @@
 		"/Users/chaitanyashahare/Documents/js-MERN/L19/p1": "reactfirebasedatabase-39588",
 		"/Users/chaitanyashahare/Documents/js-MERN/L19/p2-fb": "fbdbfeedback",
 		"/Users/chaitanyashahare/Documents/js-MERN/L19/p3_subjects": "fbdblanguages",
-		"/Users/chaitanyashahare/Documents/js-MERN/L20/p1_otp": "reactdbotp"
+		"/Users/chaitanyashahare/Documents/js-MERN/L20/p1_otp": "reactdbotp",
+		"/Users/chaitanyashahare/Documents/WebDev/React/movie-app": "movieapp-2529b",
+		"/Users/chaitanyashahare/Documents/WebDev/React/news-app": "newsapp-95b98",
+		"/Users/chaitanyashahare/Documents/WebDev/React/my-note-taking-app": "notesapp-3da0b",
+		"/Users/chaitanyashahare/Documents/js-MERN/L13/p1": "ipinfoapp-a8dff",
+		"/Users/chaitanyashahare/Documents/js-MERN/L13/p3": "bitcoinapp-f65f2",
+		"/Users/chaitanyashahare/Documents/js-MERN/L20/p2-crud": "crudreactfirebase-38ad6",
+		"/Users/chaitanyashahare/Documents/WebDev/React/new-notes-app": "notesapp-3da0b",
+		"/Users/chaitanyashahare/Documents/WebDev/React/markdown-preview": "markedup-49978"
 	}
 }

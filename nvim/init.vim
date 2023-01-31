@@ -8,7 +8,6 @@ call plug#begin()
 " Utility
     Plug 'sheerun/vim-polyglot'
 	Plug 'itchyny/lightline.vim'
-	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 	Plug 'tpope/vim-commentary'
 	Plug 'tpope/vim-surround'
 	Plug 'alvan/vim-closetag'
@@ -20,8 +19,13 @@ call plug#begin()
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'ap/vim-css-color'
     Plug 'jiangmiao/auto-pairs'
-	Plug 'preservim/vim-markdown'
+	" Plug 'godlygeek/tabular'
 	Plug 'vimwiki/vimwiki'
+	Plug 'tools-life/taskwiki'
+	Plug 'preservim/vim-markdown'
+	Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+	Plug 'tpope/vim-fugitive'
+	" Plug 'lewis6991/gitsigns.nvim'
 " Colorschemes
 	Plug 'EdenEast/nightfox.nvim'
 	Plug 'rebelot/kanagawa.nvim'
@@ -62,6 +66,12 @@ colo kanagawa
 
 highlight Normal guibg=none
 highlight NonText guibg=none
+
+
+" text folding
+" autocmd BufWinLeave *.* silent mkview
+" autocmd BufWinEnter *.* silent loadview
+
 
 
 " #################################################################################
@@ -123,6 +133,13 @@ autocmd Filetype markdown source ~/.config/nvim/scripts/markdown.vim
 " lightline -----------------------------------------------------------------------
 let g:lightline = {
 \ 'colorscheme': 'nightfox',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'filename', 'modified', 'gitbranch', 'readonly'] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'FugitiveHead'
+      \ },
 \ }
 
 " coc -----------------------------------------------------------------------------
@@ -171,3 +188,9 @@ let g:vim_markdown_folding_disabled = 1
 let g:vimwiki_list = [{'path': '~/Documents/vimwiki/',
                       \ 'syntax': 'markdown', 'ext': '.md'}]
 let g:vimwiki_global_ext = 0
+let g:vimwiki_markdown_link_ext = 1
+
+
+
+" Gitsigns
+" set statusline+=%{get(b:,'gitsigns_status','')}
