@@ -6,29 +6,34 @@
 call plug#begin()
 
 " Utility
-    Plug 'sheerun/vim-polyglot'
-	Plug 'itchyny/lightline.vim'
-	Plug 'tpope/vim-commentary'
-	Plug 'tpope/vim-surround'
-	Plug 'alvan/vim-closetag'
-	Plug 'ekickx/clipboard-image.nvim'
-	Plug 'psliwka/vim-smoothie'
-	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    Plug 'scrooloose/NERDTree'
-	Plug 'ryanoasis/vim-devicons'
-	Plug 'neoclide/coc.nvim', {'branch': 'release'}
-	Plug 'ap/vim-css-color'
-    Plug 'jiangmiao/auto-pairs'
+	" Plug 'christoomey/vim-tmux-navigator'
+		 Plug 'sheerun/vim-polyglot'
+		 Plug 'itchyny/lightline.vim'
+		 Plug 'tpope/vim-commentary'
+		 Plug 'tpope/vim-surround'
+		 Plug 'alvan/vim-closetag'
+		 Plug 'ekickx/clipboard-image.nvim'
+		 Plug 'psliwka/vim-smoothie'
+		 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+		 Plug 'scrooloose/NERDTree'
+		 Plug 'ryanoasis/vim-devicons'
+		 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+		 Plug 'ap/vim-css-color'
+		 Plug 'jiangmiao/auto-pairs'
 	" Plug 'godlygeek/tabular'
-	Plug 'vimwiki/vimwiki'
-	Plug 'tools-life/taskwiki'
-	Plug 'preservim/vim-markdown'
-	Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
-	Plug 'tpope/vim-fugitive'
-	" Plug 'lewis6991/gitsigns.nvim'
+		 Plug 'vimwiki/vimwiki'
+		 Plug 'tools-life/taskwiki'
+		 Plug 'preservim/vim-markdown'
+		 Plug 'iamcco/markdown-preview.nvim'
+		 Plug 'tpope/vim-fugitive'
+		 Plug 'lewis6991/gitsigns.nvim'
+		 Plug 'NTBBloodbath/color-converter.nvim'
 " Colorschemes
-	Plug 'EdenEast/nightfox.nvim'
-	Plug 'rebelot/kanagawa.nvim'
+		 Plug 'EdenEast/nightfox.nvim'
+		 Plug 'rebelot/kanagawa.nvim'
+		 Plug 'dracula/vim'
+		 Plug 'morhetz/gruvbox'
+		 Plug 'catppuccin/nvim'
 
 call plug#end()
 
@@ -62,15 +67,18 @@ set noshowmode
 set listchars=tab:\|\ 
 set list
 
-colo kanagawa
 
-highlight Normal guibg=none
-highlight NonText guibg=none
+colo catppuccin-frappe
 
+" highlight Normal guibg=none
+" highlight NonText guibg=none
+" highlight Normal ctermbg=none
+" highlight NonText ctermbg=none
+" au ColorScheme * hi Normal ctermbg=none guibg=none
 
 " text folding
-" autocmd BufWinLeave *.* silent mkview
-" autocmd BufWinEnter *.* silent loadview
+autocmd BufWinLeave *.* silent mkview
+autocmd BufWinEnter *.* silent loadview
 
 
 
@@ -78,7 +86,7 @@ highlight NonText guibg=none
 " ##################               REMAPS                 #########################
 " #################################################################################
 
-" let mapleader=" "
+let mapleader = " "
 imap jj <C-{>
 cmap jj <C-{>
 tnoremap jj <C-\><C-N>
@@ -131,8 +139,12 @@ autocmd Filetype markdown source ~/.config/nvim/scripts/markdown.vim
 " #################################################################################
 
 " lightline -----------------------------------------------------------------------
+" let g:lightline = {
+" \ 'separator': { 'left': '', 'right': '' },
+" \ 'subseparator': { 'left': '', 'right': '' }
+" \ }
 let g:lightline = {
-\ 'colorscheme': 'nightfox',
+			\ 'colorscheme': 'one',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'filename', 'modified', 'gitbranch', 'readonly'] ]
@@ -140,10 +152,13 @@ let g:lightline = {
       \ 'component_function': {
       \   'gitbranch': 'FugitiveHead'
       \ },
+	\ 'separator': { 'left': '', 'right': '' },
+	\ 'subseparator': { 'left': '', 'right': '' }
 \ }
 
 " coc -----------------------------------------------------------------------------
 source $HOME/.config/nvim/plug-config/coc.vim
+autocmd FileType css setl iskeyword+=-
 
 " vim-closetag --------------------------------------------------------------------
 " filenames like *.xml, *.html, *.xhtml, ...
@@ -189,8 +204,34 @@ let g:vimwiki_list = [{'path': '~/Documents/vimwiki/',
                       \ 'syntax': 'markdown', 'ext': '.md'}]
 let g:vimwiki_global_ext = 0
 let g:vimwiki_markdown_link_ext = 1
+" au filetype vimwiki silent! iunmap <buffer> <Tab>
 
+" disable table mappings
+let g:vimwiki_key_mappings = {
+            \ 'all_maps': 1,
+            \ 'global': 1,
+            \ 'headers': 1,
+            \ 'text_objs': 1,
+            \ 'table_format': 1,
+            \ 'table_mappings': 0,
+            \ 'lists': 1,
+            \ 'links': 1,
+            \ 'html': 1,
+            \ 'mouse': 0,
+            \ }
+augroup VimwikiRemaps
+    autocmd!
+    " unmap tab in insert mode
+    autocmd Filetype vimwiki silent! iunmap <buffer> <Tab>
+    " remap table tab mappings to M-n M-p
+    autocmd Filetype vimwiki inoremap <silent><expr><buffer> <M-n> vimwiki#tbl#kbd_tab()
+    autocmd Filetype vimwiki inoremap <silent><expr><buffer> <M-p> vimwiki#tbl#kbd_shift_tab()
+    " on enter if completion is open, complete first element otherwise use
+    " default vimwiki mapping
+    autocmd Filetype vimwiki inoremap <silent><expr><buffer> <cr> pumvisible() ? coc#_select_confirm()
+                              \: "<C-]><Esc>:VimwikiReturn 1 5<CR>"
+augroup end
 
 
 " Gitsigns
-" set statusline+=%{get(b:,'gitsigns_status','')}
+set statusline+=%{get(b:,'gitsigns_status','')}
