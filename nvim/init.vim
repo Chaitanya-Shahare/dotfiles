@@ -8,7 +8,8 @@ call plug#begin()
 " Utility
 	" Plug 'christoomey/vim-tmux-navigator'
 		 " Plug 'sheerun/vim-polyglot'
-		 Plug 'itchyny/lightline.vim'
+		 " Plug 'itchyny/lightline.vim'
+		 Plug 'nvim-lualine/lualine.nvim'
 		 Plug 'tpope/vim-commentary'
 		 Plug 'tpope/vim-surround'
 		 Plug 'alvan/vim-closetag'
@@ -36,6 +37,8 @@ call plug#begin()
 		 Plug 'mbbill/undotree'
 		 Plug 'github/copilot.vim'
 		 Plug 'folke/zen-mode.nvim'
+		 Plug 'nvim-tree/nvim-tree.lua'
+		 Plug 'nvim-tree/nvim-web-devicons'
 		 " Colorschemes
 		 Plug 'EdenEast/nightfox.nvim'
 		 Plug 'rebelot/kanagawa.nvim'
@@ -92,6 +95,7 @@ autocmd BufWinEnter *.* silent loadview
 
 " autocmd BufWritePre * silent Format
 autocmd BufWritePre ~/Documents/Barosa/* silent :Format
+autocmd BufWritePre ~/Documents/barosa2/* silent :Format
 
 lua << EOF
 vim.opt.termguicolors = true
@@ -161,7 +165,7 @@ nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 " nnoremap <C-\> :LazyGit<CR>
 
 nnoremap <C-p> :FZF<CR>
-nnoremap <C-n> :NERDTreeToggle<CR>
+nnoremap <C-n> :NvimTreeToggle<CR>
 
 autocmd Filetype markdown source ~/.config/nvim/scripts/markdown.vim
 
@@ -193,19 +197,111 @@ nnoremap <leader>z :ZenMode<CR>
  " \ 'separator': { 'left': '', 'right': '' },
  " \ 'subseparator': { 'left': '', 'right': '' }
  " \ }
- let g:lightline = {
-			 \ 'colorscheme': 'carbonfox',
-			 \ 'background': 'dark',
-			 \ 'active': {
-			 \   'left': [ [ 'mode', 'paste' ],
-			 \             [ 'filename', 'modified', 'gitbranch', 'readonly'] ]
-			 \ },
-			 \ 'component_function': {
-			 \   'gitbranch': 'FugitiveHead'
-			 \ },
-			 \ 'separator': { 'left': '', 'right': '' },
-			 \ 'subseparator': { 'left': '', 'right': '' }
-			 \ }
+ " let g:lightline = {
+			 " \ 'colorscheme': 'carbonfox',
+			 " \ 'background': 'dark',
+			 " \ 'component_function': {
+			 " \   'gitbranch': 'FugitiveHead'
+			 " \ },
+			 " \ 'active': {
+			 " \   'left': [ [ 'mode', 'paste' ],
+			 " \             [ 'filename', 'modified', 'gitbranch', 'readonly'] ]
+			 " \ },
+			 " \ 'separator': { 'left': '', 'right': '' },
+			 " \ 'subseparator': { 'left': '', 'right': '' }
+			 " \ }
+
+
+
+
+
+" lualine -----------------------------------------------------------------------
+lua << EOF
+require('lualine').setup {
+  options = {
+    icons_enabled = true,
+    theme = 'auto',
+    component_separators = { left = '', right = ''},
+    section_separators = { left = '', right = ''},
+    disabled_filetypes = {
+      statusline = {},
+      winbar = {},
+    },
+    ignore_focus = {},
+    always_divide_middle = true,
+    globalstatus = false,
+    refresh = {
+      statusline = 1000,
+      tabline = 1000,
+      winbar = 1000,
+    }
+  },
+  sections = {
+    lualine_a = {'mode'},
+
+    lualine_b = {'branch', 'diff', 'diagnostics'},
+    -- lualine_c = {'filename'},
+		lualine_c = {
+			{
+					'filename',
+					file_status = true,      -- Displays file status (readonly status, modified status)
+					newfile_status = false,  -- Display new file status (new file means no write after created)
+					path = 1,                -- 0: Just the filename
+					-- 1: Relative path
+					-- 2: Absolute path
+					-- 3: Absolute path, with tilde as the home directory
+					-- 4: Filename and parent dir, with tilde as the home directory
+
+					shorting_target = 40,    -- Shortens path to leave 40 spaces in the window
+					-- for other components. (terrible name, any suggestions?)
+					symbols = {
+						modified = '[+]',      -- Text to show when the file is modified.
+						readonly = '[-]',      -- Text to show when the file is non-modifiable or readonly.
+						unnamed = '[No Name]', -- Text to show for unnamed buffers.
+						newfile = '[New]',     -- Text to show for newly created file before first write
+					}
+					}
+			},
+    lualine_x = {'encoding', 'fileformat', 'filetype'},
+    lualine_y = {'progress'},
+    lualine_z = {'location'}
+  },
+  inactive_sections = {
+    lualine_a = {},
+    lualine_b = {},
+    -- lualine_c = {'filename', path=1},
+		lualine_c = {
+			{
+					'filename',
+					file_status = true,      -- Displays file status (readonly status, modified status)
+					newfile_status = false,  -- Display new file status (new file means no write after created)
+					path = 1,                -- 0: Just the filename
+					-- 1: Relative path
+					-- 2: Absolute path
+					-- 3: Absolute path, with tilde as the home directory
+					-- 4: Filename and parent dir, with tilde as the home directory
+
+					shorting_target = 40,    -- Shortens path to leave 40 spaces in the window
+					-- for other components. (terrible name, any suggestions?)
+					symbols = {
+						modified = '[+]',      -- Text to show when the file is modified.
+						readonly = '[-]',      -- Text to show when the file is non-modifiable or readonly.
+						unnamed = '[No Name]', -- Text to show for unnamed buffers.
+						newfile = '[New]',     -- Text to show for newly created file before first write
+					}
+					}
+			},
+
+    lualine_x = {'location'},
+    lualine_y = {},
+    lualine_z = {}
+  },
+  tabline = {},
+  winbar = {},
+  inactive_winbar = {},
+  extensions = {}
+}
+EOF
 
 " coc -----------------------------------------------------------------------------
 source $HOME/.config/nvim/plug-config/coc.vim
@@ -377,7 +473,10 @@ EOF
 " Lazygit
 lua << EOF
 	local Terminal  = require('toggleterm.terminal').Terminal
-	local lazygit = Terminal:new({ cmd = "lazygit",dir = "git_dir", direction = 'float' })
+	local lazygit = Terminal:new({ cmd = "lazygit",dir = "git_dir", direction = 'float', float_opts = {
+    border = "single",
+  },
+ })
 
 	function _lazygit_toggle()
 		lazygit:toggle()
@@ -385,3 +484,53 @@ lua << EOF
 
 	vim.api.nvim_set_keymap("n", "<leader>g", "<cmd>lua _lazygit_toggle()<CR>", {noremap = true, silent = true})
 EOF
+
+" nvim-tree
+lua << EOF
+-- disable netrw at the very start of your init.lua (strongly advised)
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
+-- set termguicolors to enable highlight groups
+vim.opt.termguicolors = true
+
+-- empty setup using defaults
+require("nvim-tree").setup()
+
+-- OR setup with some options
+require("nvim-tree").setup({
+    disable_netrw = true,
+    hijack_netrw = true,
+    open_on_tab = false,
+    hijack_cursor = false,
+    update_cwd = true,
+    hijack_directories = {
+        enable = true,
+        auto_open = true,
+    },
+    diagnostics = {
+        enable = true,
+        icons = {
+            hint = "",
+            info = "",
+            warning = "",
+            error = "",
+        },
+    },
+    update_focused_file = {
+        enable = true,
+        update_cwd = true,
+        ignore_list = {},
+    },
+    git = {
+        enable = true,
+        timeout = 500,
+    },
+    view = {
+				width = 30,
+        number = false,
+        relativenumber = false,
+    },
+})
+EOF
+
