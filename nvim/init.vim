@@ -96,6 +96,7 @@ autocmd BufWinEnter *.* silent loadview
 " autocmd BufWritePre * silent Format
 autocmd BufWritePre ~/Documents/Barosa/* silent :Format
 autocmd BufWritePre ~/Documents/barosa2/* silent :Format
+" autocmd BufWritePre ~/Documents/* silent :Format
 
 lua << EOF
 vim.opt.termguicolors = true
@@ -138,7 +139,7 @@ elseif &filetype == 'js'
 elseif &filetype == 'sh'
  exec "!time bash %"
 elseif &filetype == 'python'
- exec "!time python2.7 %"
+ exec "!time python3 %"
 elseif &filetype == 'html'
  exec "!firefox % &"
 elseif &filetype == 'go'
