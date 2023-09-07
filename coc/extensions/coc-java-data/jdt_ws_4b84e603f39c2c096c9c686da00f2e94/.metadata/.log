@@ -1,0 +1,667 @@
+!SESSION 2023-06-04 10:26:07.240 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws_4b84e603f39c2c096c9c686da00f2e94
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:26:07.884
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:26:07.952
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:26:07.971
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:26:07.971
+!MESSAGE Initializing Java Language Server 1.25.0.202306012135
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:26:08.330
+!MESSAGE Default VM Install changed from  null to com.oracle.java.jdk-/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:26:08.340
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:26:08.340
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:26:08.342
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:26:08.381
+!MESSAGE ProjectRegistryRefreshJob finished 39ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:26:08.388
+!MESSAGE Started org.eclipse.buildship.core 7ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:26:08.397
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:26:08.403
+!MESSAGE RepositoryRegistryUpdateJob finished 13ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:26:08.406
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:26:08.435
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+!SESSION 2023-06-04 10:27:46.849 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws_4b84e603f39c2c096c9c686da00f2e94
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:47.441
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:47.506
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:47.525
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:47.526
+!MESSAGE Initializing Java Language Server 1.25.0.202306012135
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:47.802
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:47.802
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:47.803
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:47.855
+!MESSAGE ProjectRegistryRefreshJob finished 51ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:47.861
+!MESSAGE Started org.eclipse.buildship.core 6ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:47.870
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:47.876
+!MESSAGE RepositoryRegistryUpdateJob finished 13ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:47.879
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:47.918
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:48.217
+!MESSAGE Try to create an invisible project for the workspace /Users/chaitanyashahare/Documents/test
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:48.217
+!MESSAGE Creating the Java project test_84181c46
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:48.232
+!MESSAGE Finished creating the Java project test_84181c46
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:48.235
+!MESSAGE Successfully created a workspace invisible project test_84181c46
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:48.242
+!MESSAGE Workspace initialized in 379ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:48.268
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:48.269
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:48.270
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-04 10:27:48.460
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request workspace/executeClientCommand failed with message: Command: _java.reloadBundles.command not found
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request workspace/executeClientCommand failed with message: Command: _java.reloadBundles.command not found
+	at java.base/java.util.concurrent.CompletableFuture.reportJoin(CompletableFuture.java:413)
+	at java.base/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2118)
+	at org.eclipse.jdt.ls.core.internal.JavaClientConnection.executeClientCommand(JavaClientConnection.java:93)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.synchronizeBundles(JDTLanguageServer.java:419)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request workspace/executeClientCommand failed with message: Command: _java.reloadBundles.command not found
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:48.464
+!MESSAGE >> Updating classpath for project test_84181c46
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:48.511
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:48.897
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:49.567
+!MESSAGE begin problem for /AnkiClone.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:49.567
+!MESSAGE 2 problems reported for /AnkiClone.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:49.568
+!MESSAGE Validated 1. Took 65 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:50.639
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:51.073
+!MESSAGE begin problem for /AnkiClone.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:51.073
+!MESSAGE 0 problems reported for /AnkiClone.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:51.074
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:52.286
+!MESSAGE begin problem for /AnkiClone.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:27:52.287
+!MESSAGE 0 problems reported for /AnkiClone.java
+!SESSION 2023-06-04 10:30:42.438 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws_4b84e603f39c2c096c9c686da00f2e94
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-06-04 10:30:42.847
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:30:43.055
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:30:43.131
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:30:43.153
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:30:43.153
+!MESSAGE Initializing Java Language Server 1.25.0.202306012135
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:30:43.432
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:30:43.432
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:30:43.434
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:30:43.485
+!MESSAGE ProjectRegistryRefreshJob finished 51ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:30:43.492
+!MESSAGE Started org.eclipse.buildship.core 7ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:30:43.507
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:30:43.510
+!MESSAGE RepositoryRegistryUpdateJob finished 13ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:30:43.727
+!MESSAGE Workspace initialized in 230ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:30:43.743
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:30:43.744
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:30:43.745
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-04 10:30:43.927
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request workspace/executeClientCommand failed with message: Command: _java.reloadBundles.command not found
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request workspace/executeClientCommand failed with message: Command: _java.reloadBundles.command not found
+	at java.base/java.util.concurrent.CompletableFuture.reportJoin(CompletableFuture.java:413)
+	at java.base/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2118)
+	at org.eclipse.jdt.ls.core.internal.JavaClientConnection.executeClientCommand(JavaClientConnection.java:93)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.synchronizeBundles(JDTLanguageServer.java:419)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request workspace/executeClientCommand failed with message: Command: _java.reloadBundles.command not found
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:30:43.959
+!MESSAGE >> Updating classpath for project test_84181c46
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:30:43.983
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:30:44.344
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:30:44.930
+!MESSAGE begin problem for /AnkiClone.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:30:44.931
+!MESSAGE 0 problems reported for /AnkiClone.java
+!SESSION 2023-06-04 10:32:28.281 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws_4b84e603f39c2c096c9c686da00f2e94
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-06-04 10:32:28.706
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:28.915
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:28.991
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:29.010
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:29.011
+!MESSAGE Initializing Java Language Server 1.25.0.202306012135
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:29.286
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:29.286
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:29.288
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:29.338
+!MESSAGE ProjectRegistryRefreshJob finished 50ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:29.345
+!MESSAGE Started org.eclipse.buildship.core 7ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:29.361
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:29.361
+!MESSAGE RepositoryRegistryUpdateJob finished 12ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:29.586
+!MESSAGE Workspace initialized in 237ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:29.595
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:29.596
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:29.597
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-04 10:32:29.777
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request workspace/executeClientCommand failed with message: Command: _java.reloadBundles.command not found
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request workspace/executeClientCommand failed with message: Command: _java.reloadBundles.command not found
+	at java.base/java.util.concurrent.CompletableFuture.reportJoin(CompletableFuture.java:413)
+	at java.base/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2118)
+	at org.eclipse.jdt.ls.core.internal.JavaClientConnection.executeClientCommand(JavaClientConnection.java:93)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.synchronizeBundles(JDTLanguageServer.java:419)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request workspace/executeClientCommand failed with message: Command: _java.reloadBundles.command not found
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:29.797
+!MESSAGE >> Updating classpath for project test_84181c46
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:29.818
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:30.027
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:30.670
+!MESSAGE begin problem for /AnkiClone.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:30.670
+!MESSAGE 0 problems reported for /AnkiClone.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:30.670
+!MESSAGE Validated 1. Took 37 ms
+!SESSION 2023-06-04 10:32:42.601 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws_4b84e603f39c2c096c9c686da00f2e94
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-06-04 10:32:42.968
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:43.141
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:43.207
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:43.228
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:43.230
+!MESSAGE Initializing Java Language Server 1.25.0.202306012135
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:43.482
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:43.482
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:43.484
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:43.523
+!MESSAGE ProjectRegistryRefreshJob finished 39ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:43.530
+!MESSAGE Started org.eclipse.buildship.core 5ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:43.544
+!MESSAGE RepositoryRegistryUpdateJob finished 10ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:43.545
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:43.778
+!MESSAGE Workspace initialized in 244ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:43.789
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:43.790
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:43.791
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-04 10:32:43.970
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request workspace/executeClientCommand failed with message: Command: _java.reloadBundles.command not found
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request workspace/executeClientCommand failed with message: Command: _java.reloadBundles.command not found
+	at java.base/java.util.concurrent.CompletableFuture.reportJoin(CompletableFuture.java:413)
+	at java.base/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2118)
+	at org.eclipse.jdt.ls.core.internal.JavaClientConnection.executeClientCommand(JavaClientConnection.java:93)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.synchronizeBundles(JDTLanguageServer.java:419)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request workspace/executeClientCommand failed with message: Command: _java.reloadBundles.command not found
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:43.988
+!MESSAGE >> Updating classpath for project test_84181c46
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:44.011
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:44.219
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:44.859
+!MESSAGE begin problem for /AnkiClone.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:44.859
+!MESSAGE 0 problems reported for /AnkiClone.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:32:44.860
+!MESSAGE Validated 1. Took 36 ms
+!SESSION 2023-06-05 12:11:20.388 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws_4b84e603f39c2c096c9c686da00f2e94
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-06-05 12:11:20.846
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:21.076
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:21.159
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:21.179
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:21.180
+!MESSAGE Initializing Java Language Server 1.25.0.202306012135
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:21.474
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:21.475
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:21.477
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:21.540
+!MESSAGE ProjectRegistryRefreshJob finished 63ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:21.548
+!MESSAGE Started org.eclipse.buildship.core 8ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:21.558
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:21.562
+!MESSAGE RepositoryRegistryUpdateJob finished 12ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:21.707
+!MESSAGE Workspace initialized in 156ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:21.714
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:21.715
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:21.716
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-05 12:11:21.940
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request workspace/executeClientCommand failed with message: Command: _java.reloadBundles.command not found
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request workspace/executeClientCommand failed with message: Command: _java.reloadBundles.command not found
+	at java.base/java.util.concurrent.CompletableFuture.reportJoin(CompletableFuture.java:413)
+	at java.base/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2118)
+	at org.eclipse.jdt.ls.core.internal.JavaClientConnection.executeClientCommand(JavaClientConnection.java:93)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.synchronizeBundles(JDTLanguageServer.java:419)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request workspace/executeClientCommand failed with message: Command: _java.reloadBundles.command not found
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:21.956
+!MESSAGE >> Updating classpath for project test_84181c46
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:21.981
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:22.158
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:22.813
+!MESSAGE begin problem for /ToDoListApp.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:22.813
+!MESSAGE 0 problems reported for /ToDoListApp.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:11:22.819
+!MESSAGE Validated 1. Took 58 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:14:03.199
+!MESSAGE ClassFile contents request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:32.550
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:32.552
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:33.004
+!MESSAGE begin problem for /ToDoListApp.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:33.004
+!MESSAGE 0 problems reported for /ToDoListApp.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:33.005
+!MESSAGE Validated 1. Took 48 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:33.224
+!MESSAGE Reconciled 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:33.435
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:33.451
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:33.911
+!MESSAGE begin problem for /ToDoListApp.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:33.911
+!MESSAGE 4 problems reported for /ToDoListApp.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:33.914
+!MESSAGE Validated 1. Took 58 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:34.290
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:34.336
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:34.716
+!MESSAGE begin problem for /ToDoListApp.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:34.718
+!MESSAGE 4 problems reported for /ToDoListApp.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:34.718
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:36.449
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:36.878
+!MESSAGE begin problem for /ToDoListApp.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:36.878
+!MESSAGE 4 problems reported for /ToDoListApp.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:36.879
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:40.075
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:40.504
+!MESSAGE begin problem for /ToDoListApp.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:40.504
+!MESSAGE 4 problems reported for /ToDoListApp.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:40.505
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:44.872
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:45.290
+!MESSAGE begin problem for /ToDoListApp.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:45.290
+!MESSAGE 4 problems reported for /ToDoListApp.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:45.291
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:46.285
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:46.551
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:46.972
+!MESSAGE begin problem for /ToDoListApp.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:46.972
+!MESSAGE 4 problems reported for /ToDoListApp.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:46.973
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:47.071
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:47.510
+!MESSAGE begin problem for /ToDoListApp.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:47.511
+!MESSAGE 0 problems reported for /ToDoListApp.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-05 12:15:47.511
+!MESSAGE Validated 1. Took 34 ms

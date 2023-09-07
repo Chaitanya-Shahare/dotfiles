@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Converting $1 to PDF..."
+
 IFS='.'
 
 read -ra arr <<< "$1"

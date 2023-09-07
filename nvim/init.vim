@@ -15,6 +15,8 @@ call plug#begin()
 		 Plug 'alvan/vim-closetag'
 		 Plug 'lukas-reineke/indent-blankline.nvim'
 		 Plug 'ekickx/clipboard-image.nvim'
+		 Plug 'img-paste-devs/img-paste.vim' 
+		 "https://github.com/img-paste-devs/img-paste.vim
 		 Plug 'psliwka/vim-smoothie'
 		 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 		 Plug 'scrooloose/NERDTree'
@@ -22,9 +24,9 @@ call plug#begin()
 		 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 		 Plug 'ap/vim-css-color'
 		 Plug 'jiangmiao/auto-pairs'
-		 " Plug 'godlygeek/tabular'
 		 Plug 'vimwiki/vimwiki'
-		 Plug 'tools-life/taskwiki'
+		 " Plug 'tools-life/taskwiki'
+		 Plug 'godlygeek/tabular'
 		 Plug 'preservim/vim-markdown'
 		 Plug 'tpope/vim-fugitive'
 		 Plug 'lewis6991/gitsigns.nvim'
@@ -47,6 +49,7 @@ call plug#begin()
 		 Plug 'catppuccin/nvim'
 		 Plug 'rose-pine/neovim'
 		 Plug 'nanotech/jellybeans.vim'
+		 Plug 'Chaitanya-Shahare/welcome.nvim'
 
 		 call plug#end()
 
@@ -78,23 +81,25 @@ set splitright
 set splitbelow
 set noshowmode
 " set listchars=tab:\|\ 
-set list
+" set list
 
 
-colo carbonfox
+colo duskfox
 
-" highlight Normal guibg=none
-" highlight NonText guibg=none
-" highlight Normal ctermbg=none
-" highlight NonText ctermbg=none
-" au ColorScheme * hi Normal ctermbg=none guibg=none
+highlight Normal guibg=none
+highlight NonText guibg=none
+highlight Normal ctermbg=none
+highlight NonText ctermbg=none
+au ColorScheme * hi Normal ctermbg=none guibg=none
 
 " text folding
-autocmd BufWinLeave *.* silent mkview
-autocmd BufWinEnter *.* silent loadview
+" autocmd BufWinLeave *.* silent mkview
+" autocmd BufWinEnter *.* silent loadview
 
 " autocmd BufWritePre * silent Format
 autocmd BufWritePre ~/Documents/Barosa/* silent :Format
+" autocmd BufWritePre ~/Documents/* silent :Format
+autocmd BufWritePre ~/Documents/WebDev/* silent :Format
 autocmd BufWritePre ~/Documents/barosa2/* silent :Format
 " autocmd BufWritePre ~/Documents/* silent :Format
 
@@ -162,6 +167,10 @@ nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
+
+nnoremap <f3> :w <CR>
+nnoremap <leader>w :w!<CR>
+
 " Lazygit
 " nnoremap <C-\> :LazyGit<CR>
 
@@ -187,11 +196,6 @@ EOF
 " Zen-mode
 nnoremap <leader>z :ZenMode<CR>
 
-
-
-" #################################################################################
-" ##################            PLUGINS CONFIG            #########################
-" #################################################################################
 
 " lightline -----------------------------------------------------------------------
 " let g:lightline = {
@@ -346,13 +350,13 @@ let g:closetag_close_shortcut = '<leader>>'
 
 " vim-markdown --------------------------------------------------------------------
 let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_conceal = 1
+let g:vim_markdown_frontmatter = 1
+let g:vim_markdown_conceal_code_blocks = 0
 
  " vimwiki
  let g:vimwiki_list = [{'path': '~/Documents/vimwiki/',
 			 \ 'syntax': 'markdown', 'ext': '.md'}]
- let g:vimwiki_global_ext = 0
- let g:vimwiki_markdown_link_ext = 1
- " au filetype vimwiki silent! iunmap <buffer> <Tab>
 
  " disable table mappings
  let g:vimwiki_key_mappings = {
@@ -535,3 +539,32 @@ require("nvim-tree").setup({
 })
 EOF
 
+
+" Clipboard image
+lua << EOF
+require'clipboard-image'.setup {
+  -- Default configuration for all filetype
+  default = {
+    img_dir = "images",
+    img_name = function() return os.date('%Y-%m-%d-%H-%M-%S') end, -- Example result: "2021-04-13-10-04-18"
+    affix = "<\n  %s\n>" -- Multi lines affix
+  },
+  -- You can create configuration for ceartain filetype by creating another field (markdown, in this case)
+  -- If you're uncertain what to name your field to, you can run `lua print(vim.bo.filetype)`
+  -- Missing options from `markdown` field will be replaced by options from `default` field
+  -- markdown = {
+  --   img_dir = {"src", "assets", "img"}, -- Use table for nested dir (New feature form PR #20)
+  --   img_dir_txt = "/assets/img",
+  --   img_handler = function(img) -- New feature from PR #22
+  --     local script = string.format('./image_compressor.sh "%s"', img.path)
+  --     os.execute(script)
+  --   end,
+  -- }
+}
+EOF
+
+" img paste.vim
+autocmd FileType markdown nmap <buffer><silent> <leader>p :call mdip#MarkdownClipboardImage()<CR>
+" there are some defaults for image directory and image name, you can change them
+" let g:mdip_imgdir = 'img'
+" let g:mdip_imgname = 'image'

@@ -7,6 +7,7 @@
     "coc-snippets": ">=3.1.6",
     "@yaegassy/coc-tailwindcss3": ">=0.4.5",
     "coc-prettier": ">=9.3.1",
-    "coc-sh": ">=1.0.2"
+    "coc-sh": ">=1.0.2",
+    "coc-python": ">=1.2.13"
   }
 }

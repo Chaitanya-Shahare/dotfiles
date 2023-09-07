@@ -1,0 +1,995 @@
+!SESSION 2023-06-04 10:21:12.173 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws_c0ec62d0c1e8036eec33e436de7ccff7
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.019
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.088
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.108
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.108
+!MESSAGE Initializing Java Language Server 1.25.0.202306012135
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.472
+!MESSAGE Default VM Install changed from  null to com.oracle.java.jdk-/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.482
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.482
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.484
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.522
+!MESSAGE ProjectRegistryRefreshJob finished 38ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.529
+!MESSAGE Started org.eclipse.buildship.core 7ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.538
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.544
+!MESSAGE RepositoryRegistryUpdateJob finished 12ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.548
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.588
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.828
+!MESSAGE Try to create an invisible project for the workspace /Users/chaitanyashahare/Documents/test/twitter-clone
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.828
+!MESSAGE Creating the Java project twitter-clone_f944e77a
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.833
+!MESSAGE Finished creating the Java project twitter-clone_f944e77a
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.839
+!MESSAGE Successfully created a workspace invisible project twitter-clone_f944e77a
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.850
+!MESSAGE Workspace initialized in 319ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.875
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.876
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:13.878
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-04 10:21:14.010
+!MESSAGE Error occured while building workspace. Details: 
+ message: The declared package "" does not match the expected package "main.java.com.example.twitterclone.model"; code: 536871240; resource: /Users/chaitanyashahare/Documents/test/twitter-clone/src/main/java/com/example/twitterclone/model/User.java; line: 1
+ message: Entity cannot be resolved to a type; code: 16777218; resource: /Users/chaitanyashahare/Documents/test/twitter-clone/src/main/java/com/example/twitterclone/model/User.java; line: 2
+ message: Table cannot be resolved to a type; code: 16777218; resource: /Users/chaitanyashahare/Documents/test/twitter-clone/src/main/java/com/example/twitterclone/model/User.java; line: 3
+ message: Id cannot be resolved to a type; code: 16777218; resource: /Users/chaitanyashahare/Documents/test/twitter-clone/src/main/java/com/example/twitterclone/model/User.java; line: 5
+ message: GeneratedValue cannot be resolved to a type; code: 16777218; resource: /Users/chaitanyashahare/Documents/test/twitter-clone/src/main/java/com/example/twitterclone/model/User.java; line: 6
+ message: GenerationType cannot be resolved to a variable; code: 33554515; resource: /Users/chaitanyashahare/Documents/test/twitter-clone/src/main/java/com/example/twitterclone/model/User.java; line: 6
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-06-04 10:21:14.086
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request workspace/executeClientCommand failed with message: Command: _java.reloadBundles.command not found
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request workspace/executeClientCommand failed with message: Command: _java.reloadBundles.command not found
+	at java.base/java.util.concurrent.CompletableFuture.reportJoin(CompletableFuture.java:413)
+	at java.base/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2118)
+	at org.eclipse.jdt.ls.core.internal.JavaClientConnection.executeClientCommand(JavaClientConnection.java:93)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.synchronizeBundles(JDTLanguageServer.java:419)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request workspace/executeClientCommand failed with message: Command: _java.reloadBundles.command not found
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:14.103
+!MESSAGE >> Updating classpath for project twitter-clone_f944e77a
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:14.127
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:14.440
+!MESSAGE Reconciled 3. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:15.053
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:15.053
+!MESSAGE 0 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:15.057
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:15.057
+!MESSAGE 0 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:15.078
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:15.078
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:15.080
+!MESSAGE Validated 3. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:16.932
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:17.367
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:17.367
+!MESSAGE 9 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:17.375
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:17.376
+!MESSAGE 0 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:17.388
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:17.388
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:17.389
+!MESSAGE Validated 3. Took 52 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:28.012
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:28.448
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:28.449
+!MESSAGE 9 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:28.454
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:28.455
+!MESSAGE 0 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:28.460
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:28.460
+!MESSAGE 0 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:28.469
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:28.470
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:28.470
+!MESSAGE Validated 4. Took 52 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:29.018
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:29.443
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:29.444
+!MESSAGE 9 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:29.458
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:29.459
+!MESSAGE 5 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:29.467
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:29.467
+!MESSAGE 0 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:29.476
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:29.477
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:29.478
+!MESSAGE Validated 4. Took 55 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:31.321
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:31.750
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:31.750
+!MESSAGE 9 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:31.762
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:31.762
+!MESSAGE 5 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:31.767
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:31.767
+!MESSAGE 0 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:31.794
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:31.794
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:31.794
+!MESSAGE Validated 4. Took 67 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:39.049
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:39.481
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:39.481
+!MESSAGE 9 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:39.489
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:39.489
+!MESSAGE 5 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:39.493
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:39.494
+!MESSAGE 0 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:39.497
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:39.497
+!MESSAGE 0 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:39.503
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:39.504
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:39.504
+!MESSAGE Validated 5. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.070
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.478
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.478
+!MESSAGE 9 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.483
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.483
+!MESSAGE 5 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.513
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.513
+!MESSAGE 10 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.516
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.517
+!MESSAGE 0 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.521
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.521
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.521
+!MESSAGE Validated 5. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.548
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.968
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.969
+!MESSAGE 9 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.981
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.981
+!MESSAGE 5 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.989
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.989
+!MESSAGE 10 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.993
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.993
+!MESSAGE 0 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.998
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.999
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:40.999
+!MESSAGE Validated 5. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:48.987
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:49.410
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:49.410
+!MESSAGE 9 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:49.418
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:49.419
+!MESSAGE 5 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:49.426
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:49.427
+!MESSAGE 10 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:49.430
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:49.430
+!MESSAGE 0 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:49.436
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:49.437
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:49.440
+!MESSAGE begin problem for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:49.440
+!MESSAGE 0 problems reported for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:49.440
+!MESSAGE Validated 6. Took 47 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:55.837
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:56.261
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:56.262
+!MESSAGE 9 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:56.269
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:56.269
+!MESSAGE 5 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:56.276
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:56.277
+!MESSAGE 10 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:56.280
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:56.281
+!MESSAGE 0 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:56.286
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:56.287
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:56.291
+!MESSAGE begin problem for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:56.292
+!MESSAGE 4 problems reported for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:56.292
+!MESSAGE Validated 6. Took 48 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:57.310
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:57.720
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:57.720
+!MESSAGE 9 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:57.727
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:57.727
+!MESSAGE 5 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:57.734
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:57.734
+!MESSAGE 10 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:57.737
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:57.737
+!MESSAGE 0 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:57.742
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:57.743
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:57.746
+!MESSAGE begin problem for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:57.746
+!MESSAGE 4 problems reported for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:57.747
+!MESSAGE Validated 6. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:58.329
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:58.748
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:58.749
+!MESSAGE 9 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:58.758
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:58.758
+!MESSAGE 5 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:58.765
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:58.765
+!MESSAGE 10 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:58.768
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:58.768
+!MESSAGE 0 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:58.775
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:58.775
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:58.779
+!MESSAGE begin problem for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:58.779
+!MESSAGE 4 problems reported for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:21:58.780
+!MESSAGE Validated 6. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:04.421
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:04.837
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:04.837
+!MESSAGE 9 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:04.845
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:04.845
+!MESSAGE 5 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:04.849
+!MESSAGE begin problem for /TweetService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:04.849
+!MESSAGE 0 problems reported for /TweetService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:04.855
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:04.855
+!MESSAGE 10 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:04.859
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:04.860
+!MESSAGE 0 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:04.868
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:04.868
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:04.872
+!MESSAGE begin problem for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:04.872
+!MESSAGE 4 problems reported for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:04.873
+!MESSAGE Validated 7. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:10.070
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:10.485
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:10.485
+!MESSAGE 9 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:10.492
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:10.493
+!MESSAGE 5 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:10.499
+!MESSAGE begin problem for /TweetService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:10.500
+!MESSAGE 11 problems reported for /TweetService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:10.543
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:10.543
+!MESSAGE 10 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:10.545
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:10.545
+!MESSAGE 0 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:10.549
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:10.549
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:10.553
+!MESSAGE begin problem for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:10.553
+!MESSAGE 4 problems reported for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:10.553
+!MESSAGE Validated 7. Took 81 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:11.124
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:11.543
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:11.543
+!MESSAGE 9 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:11.551
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:11.551
+!MESSAGE 5 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:11.557
+!MESSAGE begin problem for /TweetService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:11.558
+!MESSAGE 11 problems reported for /TweetService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:11.564
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:11.564
+!MESSAGE 10 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:11.568
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:11.568
+!MESSAGE 0 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:11.573
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:11.573
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:11.576
+!MESSAGE begin problem for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:11.577
+!MESSAGE 4 problems reported for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:11.577
+!MESSAGE Validated 7. Took 48 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:12.144
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:12.563
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:12.564
+!MESSAGE 9 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:12.571
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:12.571
+!MESSAGE 5 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:12.578
+!MESSAGE begin problem for /TweetService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:12.578
+!MESSAGE 11 problems reported for /TweetService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:12.584
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:12.584
+!MESSAGE 10 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:12.587
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:12.588
+!MESSAGE 0 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:12.593
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:12.593
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:12.597
+!MESSAGE begin problem for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:12.597
+!MESSAGE 4 problems reported for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:12.598
+!MESSAGE Validated 7. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:14.424
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:14.842
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:14.842
+!MESSAGE 9 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:14.850
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:14.851
+!MESSAGE 5 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:14.859
+!MESSAGE begin problem for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:14.860
+!MESSAGE 0 problems reported for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:14.866
+!MESSAGE begin problem for /TweetService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:14.867
+!MESSAGE 11 problems reported for /TweetService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:14.872
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:14.872
+!MESSAGE 10 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:14.875
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:14.876
+!MESSAGE 0 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:14.880
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:14.881
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:14.886
+!MESSAGE begin problem for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:14.886
+!MESSAGE 4 problems reported for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:14.887
+!MESSAGE Validated 8. Took 59 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:21.316
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:21.736
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:21.737
+!MESSAGE 9 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:21.744
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:21.745
+!MESSAGE 5 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:21.755
+!MESSAGE begin problem for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:21.755
+!MESSAGE 20 problems reported for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:21.761
+!MESSAGE begin problem for /TweetService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:21.761
+!MESSAGE 11 problems reported for /TweetService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:21.767
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:21.769
+!MESSAGE 10 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:21.772
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:21.773
+!MESSAGE 0 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:21.777
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:21.777
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:21.781
+!MESSAGE begin problem for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:21.782
+!MESSAGE 4 problems reported for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:21.782
+!MESSAGE Validated 8. Took 60 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:31.943
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:32.184
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:32.600
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:32.600
+!MESSAGE 9 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:32.607
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:32.608
+!MESSAGE 5 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:32.615
+!MESSAGE begin problem for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:32.616
+!MESSAGE 20 problems reported for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:32.621
+!MESSAGE begin problem for /TweetService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:32.621
+!MESSAGE 11 problems reported for /TweetService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:32.626
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:32.627
+!MESSAGE 10 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:32.631
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:32.631
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:32.637
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:32.637
+!MESSAGE 23 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:32.641
+!MESSAGE begin problem for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:32.641
+!MESSAGE 4 problems reported for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:32.641
+!MESSAGE Validated 8. Took 53 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:33.203
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:33.622
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:33.622
+!MESSAGE 9 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:33.629
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:33.629
+!MESSAGE 5 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:33.636
+!MESSAGE begin problem for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:33.637
+!MESSAGE 20 problems reported for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:33.642
+!MESSAGE begin problem for /TweetService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:33.642
+!MESSAGE 11 problems reported for /TweetService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:33.647
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:33.647
+!MESSAGE 10 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:33.651
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:33.651
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:33.658
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:33.659
+!MESSAGE 23 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:33.662
+!MESSAGE begin problem for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:33.662
+!MESSAGE 4 problems reported for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:33.663
+!MESSAGE Validated 8. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:38.084
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:38.496
+!MESSAGE begin problem for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:38.497
+!MESSAGE 5 problems reported for /UserRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:38.504
+!MESSAGE begin problem for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:38.504
+!MESSAGE 9 problems reported for /Tweet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:38.511
+!MESSAGE begin problem for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:38.511
+!MESSAGE 20 problems reported for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:38.517
+!MESSAGE begin problem for /TweetService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:38.517
+!MESSAGE 11 problems reported for /TweetService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:38.521
+!MESSAGE begin problem for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:38.522
+!MESSAGE 10 problems reported for /UserService.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:38.526
+!MESSAGE begin problem for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:38.526
+!MESSAGE 6 problems reported for /User.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:38.531
+!MESSAGE begin problem for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:38.531
+!MESSAGE 23 problems reported for /TweetController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:38.535
+!MESSAGE begin problem for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:38.535
+!MESSAGE 4 problems reported for /TweetRepository.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:38.535
+!MESSAGE Validated 8. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:38.926
+!MESSAGE begin problem for /UserController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-04 10:22:38.927
+!MESSAGE 20 problems reported for /UserController.java
