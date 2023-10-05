@@ -1,0 +1,283 @@
+2023-09-14T11:15:49.956 WARN (pid:80820) - Could not find lombok.jar path.
+2023-09-14T11:15:49.963 INFO (pid:80820) - Starting Java server with: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=UTF-8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/Users/chaitanyashahare/.config/coc/extensions/coc-java-data -jar /Users/chaitanyashahare/.config/coc/extensions/node_modules/coc-java/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/1.14.1/config_mac -data /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws
+2023-09-14T11:15:50.042 INFO (pid:80820) - WARNING: Using incubator modules: jdk.incubator.concurrent, jdk.incubator.vector
+
+2023-09-14T11:16:11.384 WARN (pid:80948) - Could not find lombok.jar path.
+2023-09-14T11:16:11.391 INFO (pid:80948) - Starting Java server with: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=UTF-8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/Users/chaitanyashahare/.config/coc/extensions/coc-java-data -jar /Users/chaitanyashahare/.config/coc/extensions/node_modules/coc-java/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/1.14.1/config_mac -data /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws
+2023-09-14T11:16:11.426 INFO (pid:80948) - WARNING: Using incubator modules: jdk.incubator.concurrent, jdk.incubator.vector
+
+2023-09-14T11:19:03.332 INFO (pid:80948) - [Error - 11:19:03.331] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:03.332 INFO (pid:80948) -   Message: The request (id: 19, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:03.333 INFO (pid:80948) - [Error - 11:19:03.333] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:03.333 INFO (pid:80948) -   Message: The request (id: 17, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:03.333 INFO (pid:80948) - [Error - 11:19:03.333] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:03.333 INFO (pid:80948) -   Message: The request (id: 18, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:03.642 INFO (pid:80948) - [Error - 11:19:03.642] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:03.642 INFO (pid:80948) -   Message: The request (id: 21, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:03.642 INFO (pid:80948) - [Error - 11:19:03.642] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:03.642 INFO (pid:80948) -   Message: The request (id: 22, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:03.643 INFO (pid:80948) - [Error - 11:19:03.643] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:03.643 INFO (pid:80948) -   Message: The request (id: 23, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:04.628 INFO (pid:80948) - [Error - 11:19:04.628] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:04.628 INFO (pid:80948) -   Message: The request (id: 26, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:08.051 INFO (pid:80948) - [Error - 11:19:08.051] Sending request textDocument/signatureHelp failed.
+2023-09-14T11:19:08.051 INFO (pid:80948) -   Message: The request (id: 32, method: 'textDocument/signatureHelp') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:09.681 INFO (pid:80948) - [Error - 11:19:09.681] Sending request textDocument/signatureHelp failed.
+2023-09-14T11:19:09.682 INFO (pid:80948) -   Message: The request (id: 38, method: 'textDocument/signatureHelp') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:26.754 INFO (pid:80948) - [Error - 11:19:26.754] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:26.754 INFO (pid:80948) -   Message: The request (id: 50, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:27.614 INFO (pid:80948) - [Error - 11:19:27.614] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:27.614 INFO (pid:80948) -   Message: The request (id: 53, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:51.612 INFO (pid:80948) - [Error - 11:19:51.612] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:51.612 INFO (pid:80948) -   Message: The request (id: 63, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:53.123 INFO (pid:80948) - [Error - 11:19:53.122] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:53.123 INFO (pid:80948) -   Message: The request (id: 67, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:53.123 INFO (pid:80948) - [Error - 11:19:53.123] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:53.123 INFO (pid:80948) -   Message: The request (id: 68, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:53.125 INFO (pid:80948) - [Error - 11:19:53.125] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:53.125 INFO (pid:80948) -   Message: The request (id: 69, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:55.146 INFO (pid:80948) - [Error - 11:19:55.146] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:55.146 INFO (pid:80948) -   Message: The request (id: 72, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:55.148 INFO (pid:80948) - [Error - 11:19:55.148] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:55.148 INFO (pid:80948) -   Message: The request (id: 73, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:55.148 INFO (pid:80948) - [Error - 11:19:55.148] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:55.148 INFO (pid:80948) -   Message: The request (id: 74, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:57.594 INFO (pid:80948) - [Error - 11:19:57.594] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:57.594 INFO (pid:80948) -   Message: The request (id: 79, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:57.595 INFO (pid:80948) - [Error - 11:19:57.595] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:57.595 INFO (pid:80948) -   Message: The request (id: 77, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:57.595 INFO (pid:80948) - [Error - 11:19:57.595] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:57.595 INFO (pid:80948) -   Message: The request (id: 78, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:58.201 INFO (pid:80948) - [Error - 11:19:58.201] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:58.201 INFO (pid:80948) -   Message: The request (id: 82, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:58.203 INFO (pid:80948) - [Error - 11:19:58.203] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:58.203 INFO (pid:80948) -   Message: The request (id: 83, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:58.203 INFO (pid:80948) - [Error - 11:19:58.203] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:58.203 INFO (pid:80948) -   Message: The request (id: 84, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:59.239 INFO (pid:80948) - [Error - 11:19:59.239] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:59.239 INFO (pid:80948) -   Message: The request (id: 86, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:59.241 INFO (pid:80948) - [Error - 11:19:59.241] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:59.241 INFO (pid:80948) -   Message: The request (id: 87, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:19:59.241 INFO (pid:80948) - [Error - 11:19:59.241] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:19:59.241 INFO (pid:80948) -   Message: The request (id: 88, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:20:00.153 INFO (pid:80948) - [Error - 11:20:00.153] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:20:00.153 INFO (pid:80948) -   Message: The request (id: 90, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:20:00.155 INFO (pid:80948) - [Error - 11:20:00.155] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:20:00.155 INFO (pid:80948) -   Message: The request (id: 91, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:20:00.155 INFO (pid:80948) - [Error - 11:20:00.155] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:20:00.155 INFO (pid:80948) -   Message: The request (id: 92, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:20:03.385 INFO (pid:80948) - [Error - 11:20:03.385] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:20:03.385 INFO (pid:80948) -   Message: The request (id: 96, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:20:03.951 INFO (pid:80948) - [Error - 11:20:03.951] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:20:03.951 INFO (pid:80948) -   Message: The request (id: 98, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:20:03.953 INFO (pid:80948) - [Error - 11:20:03.953] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:20:03.953 INFO (pid:80948) -   Message: The request (id: 99, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:20:03.953 INFO (pid:80948) - [Error - 11:20:03.953] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:20:03.953 INFO (pid:80948) -   Message: The request (id: 100, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:20:04.386 INFO (pid:80948) - [Error - 11:20:04.386] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:20:04.386 INFO (pid:80948) -   Message: The request (id: 102, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:20:04.388 INFO (pid:80948) - [Error - 11:20:04.388] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:20:04.388 INFO (pid:80948) -   Message: The request (id: 103, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:20:04.388 INFO (pid:80948) - [Error - 11:20:04.388] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:20:04.388 INFO (pid:80948) -   Message: The request (id: 104, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:20:09.950 INFO (pid:80948) - [Error - 11:20:09.950] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:20:09.951 INFO (pid:80948) -   Message: The request (id: 116, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:20:09.951 INFO (pid:80948) - [Error - 11:20:09.951] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:20:09.951 INFO (pid:80948) -   Message: The request (id: 117, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:20:09.952 INFO (pid:80948) - [Error - 11:20:09.952] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:20:09.952 INFO (pid:80948) -   Message: The request (id: 118, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:21:46.929 INFO (pid:80948) - [Error - 11:21:46.929] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:21:46.929 INFO (pid:80948) -   Message: The request (id: 130, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:21:47.735 INFO (pid:80948) - [Error - 11:21:47.735] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:21:47.735 INFO (pid:80948) -   Message: The request (id: 134, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:21:50.595 INFO (pid:80948) - [Error - 11:21:50.595] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:21:50.595 INFO (pid:80948) -   Message: The request (id: 140, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:21:50.597 INFO (pid:80948) - [Error - 11:21:50.597] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:21:50.597 INFO (pid:80948) -   Message: The request (id: 141, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:21:50.597 INFO (pid:80948) - [Error - 11:21:50.597] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:21:50.597 INFO (pid:80948) -   Message: The request (id: 142, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:21:50.598 INFO (pid:80948) - [Error - 11:21:50.598] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:21:50.598 INFO (pid:80948) -   Message: The request (id: 143, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:21:50.598 INFO (pid:80948) - [Error - 11:21:50.598] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:21:50.598 INFO (pid:80948) -   Message: The request (id: 144, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:21:53.881 INFO (pid:80948) - [Error - 11:21:53.881] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:21:53.881 INFO (pid:80948) -   Message: The request (id: 148, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:21:53.881 INFO (pid:80948) - [Error - 11:21:53.881] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:21:53.881 INFO (pid:80948) -   Message: The request (id: 149, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:21:53.882 INFO (pid:80948) - [Error - 11:21:53.882] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:21:53.882 INFO (pid:80948) -   Message: The request (id: 150, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:21:53.882 INFO (pid:80948) - [Error - 11:21:53.882] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:21:53.882 INFO (pid:80948) -   Message: The request (id: 151, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:21:53.882 INFO (pid:80948) - [Error - 11:21:53.882] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:21:53.882 INFO (pid:80948) -   Message: The request (id: 152, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:21:55.484 INFO (pid:80948) - [Error - 11:21:55.484] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:21:55.484 INFO (pid:80948) -   Message: The request (id: 155, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:21:57.220 INFO (pid:80948) - [Error - 11:21:57.220] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:21:57.220 INFO (pid:80948) -   Message: The request (id: 169, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:22:13.122 INFO (pid:80948) - [Error - 11:22:13.122] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:22:13.122 INFO (pid:80948) -   Message: The request (id: 174, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:22:13.126 INFO (pid:80948) - [Error - 11:22:13.126] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:22:13.126 INFO (pid:80948) -   Message: The request (id: 178, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:22:15.700 INFO (pid:80948) - [Error - 11:22:15.700] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:22:15.700 INFO (pid:80948) -   Message: The request (id: 185, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:22:15.700 INFO (pid:80948) - [Error - 11:22:15.700] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:22:15.700 INFO (pid:80948) -   Message: The request (id: 181, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:22:15.700 INFO (pid:80948) - [Error - 11:22:15.700] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:22:15.700 INFO (pid:80948) -   Message: The request (id: 182, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:22:15.700 INFO (pid:80948) - [Error - 11:22:15.700] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:22:15.700 INFO (pid:80948) -   Message: The request (id: 183, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:22:15.700 INFO (pid:80948) - [Error - 11:22:15.700] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:22:15.700 INFO (pid:80948) -   Message: The request (id: 184, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:22:16.312 INFO (pid:80948) - [Error - 11:22:16.312] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:22:16.312 INFO (pid:80948) -   Message: The request (id: 191, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:22:20.310 INFO (pid:80948) - [Error - 11:22:20.310] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:22:20.310 INFO (pid:80948) -   Message: The request (id: 200, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-14T11:22:23.199 INFO (pid:80948) - [Error - 11:22:23.199] Sending request textDocument/documentHighlight failed.
+2023-09-14T11:22:23.199 INFO (pid:80948) -   Message: The request (id: 208, method: 'textDocument/documentHighlight') has been cancelled
+  Code: -32800 
+2023-09-24T19:17:13.468 WARN (pid:42712) - Could not find lombok.jar path.
+2023-09-24T19:17:13.479 INFO (pid:42712) - Starting Java server with: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=UTF-8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/Users/chaitanyashahare/.config/coc/extensions/coc-java-data -jar /Users/chaitanyashahare/.config/coc/extensions/node_modules/coc-java/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/1.14.1/config_mac -data /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws
+2023-09-24T19:17:13.805 INFO (pid:42712) - WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.concurrent
+
+2023-09-24T19:17:15.379 INFO (pid:42712) - [Error - 19:17:15.379] 24-Sept-2023, 7:17:15 pm Failed to read package name from file:/Users/chaitanyashahare/Documents/test/testingSpeeds/HelloWorld.java
+/Users/chaitanyashahare/Documents/test/testingSpeeds/HelloWorld.java (No such file or directory)
+java.io.FileNotFoundException: /Users/chaitanyashahare/Documents/test/testingSpeeds/HelloWorld.java (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at com.google.common.io.Files$FileByteSource.openStream(Files.java:130)
+	at com.google.common.io.Files$FileByteSource.read(Files.java:154)
+	at com.google.common.io.ByteSource$AsCharSource.read(ByteSource.java:472)
+	at com.google.common.io.Files.toString(Files.java:254)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getPackageName(JDTUtils.java:301)
+	at org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporter.getPackageName(InvisibleProjectImporter.java:563)
+	at org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporter.getPackageName(InvisibleProjectImporter.java:541)
+	at org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporter.getPackageName(InvisibleProjectImporter.java:531)
+	at org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporter.loadInvisibleProject(InvisibleProjectImporter.java:129)
+	at org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporter.importToWorkspace(InvisibleProjectImporter.java:110)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:148)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:111)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:242)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+2023-09-24T19:17:17.732 INFO (pid:42712) - [Error - 19:17:17.732] 24-Sept-2023, 7:17:17 pm Problem with codeComplete for file:///Users/chaitanyashahare/Documents/test/testingSpeeds/HelloWorld.java
+HelloWorld.java [in <default> [in _/testingSpeeds [in test_84181c46]]] does not exist
+Java Model Exception: Error in Java Model (code 969): HelloWorld.java [in <default> [in _/testingSpeeds [in test_84181c46]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:584)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.computeContentAssist(CompletionHandler.java:179)
+	at org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.completion(CompletionHandler.java:93)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$5(JDTLanguageServer.java:580)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:79)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1840)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+2023-09-24T19:17:18.648 INFO (pid:42712) - [Error - 19:17:18.648] 24-Sept-2023, 7:17:18 pm Find signatureHelp failure 
+HelloWorld.java [in <default> [in _/testingSpeeds [in test_84181c46]]] does not exist
+Java Model Exception: Error in Java Model (code 969): HelloWorld.java [in <default> [in _/testingSpeeds [in test_84181c46]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:584)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandler.signatureHelp(SignatureHelpHandler.java:78)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$8(JDTLanguageServer.java:628)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:79)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1840)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+2023-09-24T19:17:50.915 WARN (pid:42832) - Could not find lombok.jar path.
+2023-09-24T19:17:50.922 INFO (pid:42832) - Starting Java server with: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=UTF-8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/Users/chaitanyashahare/.config/coc/extensions/coc-java-data -jar /Users/chaitanyashahare/.config/coc/extensions/node_modules/coc-java/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/1.14.1/config_mac -data /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws
+2023-09-24T19:17:50.960 INFO (pid:42832) - WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.concurrent
+
+2023-09-24T19:17:52.577 INFO (pid:42832) - [Error - 19:17:52.577] 24-Sept-2023, 7:17:52 pm Error occured while building workspace. Details: 
+ message: Syntax error on token "void", record expected; code: 1610612940; resource: /Users/chaitanyashahare/Documents/test/testingSpeeds/HelloWorld.java; line: 2
+ message: Syntax error on token ".", @ expected after this token; code: 1610612967; resource: /Users/chaitanyashahare/Documents/test/testingSpeeds/HelloWorld.java; line: 3
+ message: Syntax error, insert "SimpleName" to complete QualifiedName; code: 1610612976; resource: /Users/chaitanyashahare/Documents/test/testingSpeeds/HelloWorld.java; line: 3
+ message: Syntax error, insert "Identifier (" to complete MethodHeaderName; code: 1610612976; resource: /Users/chaitanyashahare/Documents/test/testingSpeeds/HelloWorld.java; line: 3
+ message: Syntax error, insert ")" to complete MethodDeclaration; code: 1610612976; resource: /Users/chaitanyashahare/Documents/test/testingSpeeds/HelloWorld.java; line: 3
+2023-09-24T19:18:06.812 INFO (pid:42832) - [Error - 19:18:06.812] Sending request textDocument/signatureHelp failed.
+2023-09-24T19:18:06.812 INFO (pid:42832) -   Message: The request (id: 17, method: 'textDocument/signatureHelp') has been cancelled
+  Code: -32800 
+2023-09-24T19:18:07.814 INFO (pid:42832) - [Error - 19:18:07.814] Sending request textDocument/signatureHelp failed.
+2023-09-24T19:18:07.814 INFO (pid:42832) -   Message: The request (id: 23, method: 'textDocument/signatureHelp') has been cancelled
+  Code: -32800 

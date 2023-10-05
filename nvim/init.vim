@@ -41,6 +41,7 @@ call plug#begin()
 		 Plug 'folke/zen-mode.nvim'
 		 Plug 'nvim-tree/nvim-tree.lua'
 		 Plug 'nvim-tree/nvim-web-devicons'
+		 Plug 'folke/todo-comments.nvim'
 		 " Colorschemes
 		 Plug 'EdenEast/nightfox.nvim'
 		 Plug 'rebelot/kanagawa.nvim'
@@ -84,13 +85,13 @@ set noshowmode
 " set list
 
 
-colo duskfox
+colo kanagawa-dragon
 
-highlight Normal guibg=none
-highlight NonText guibg=none
-highlight Normal ctermbg=none
-highlight NonText ctermbg=none
-au ColorScheme * hi Normal ctermbg=none guibg=none
+" highlight Normal guibg=none
+" highlight NonText guibg=none
+" highlight Normal ctermbg=none
+" highlight NonText ctermbg=none
+" au ColorScheme * hi Normal ctermbg=none guibg=none
 
 " text folding
 " autocmd BufWinLeave *.* silent mkview
@@ -101,6 +102,7 @@ autocmd BufWritePre ~/Documents/Barosa/* silent :Format
 " autocmd BufWritePre ~/Documents/* silent :Format
 autocmd BufWritePre ~/Documents/WebDev/* silent :Format
 autocmd BufWritePre ~/Documents/barosa2/* silent :Format
+autocmd BufWritePre ~/Documents/Zalco/* silent :Format
 " autocmd BufWritePre ~/Documents/* silent :Format
 
 lua << EOF
@@ -568,3 +570,10 @@ autocmd FileType markdown nmap <buffer><silent> <leader>p :call mdip#MarkdownCli
 " there are some defaults for image directory and image name, you can change them
 " let g:mdip_imgdir = 'img'
 " let g:mdip_imgname = 'image'
+
+lua << EOF
+--- todo-comments setup
+require("todo-comments").setup()
+EOF
+
+

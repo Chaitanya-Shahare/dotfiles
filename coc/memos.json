@@ -26,7 +26,7 @@
         "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
         "fileHash": "c762dbc9a3ead545d1356759718f2150f8e59c0fa5113b2fc092ad4beb54ba6f231de5d205f71af3cedb65860d82fde0008831402cbd6331136c9aa0e31e04be"
       },
-      "expiry": 1693121898546
+      "expiry": 1695710790883
     },
     "/opt/homebrew/bin/python3.11.v3": {
       "data": {
@@ -51,7 +51,7 @@
         "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
         "fileHash": "767079cbf3c17678c1c96cfb9d6469219a0279cb509ecd1344d93aa8f5d01c56a50c45b1f4dda49a451e5f0630bf97de4d6ac8dec0c587088c632038500c639b"
       },
-      "expiry": 1693121898619
+      "expiry": 1695710790883
     },
     "/opt/homebrew/opt/python@3.11/bin/python3.11.v3": {
       "data": {
@@ -76,7 +76,7 @@
         "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
         "fileHash": "1d8b14e695ca3061b6d9430cbc67a8220dc7f93499b1d18cecf4cef6f74a998c9da67cfe77ea865d49197ad23ab38919b570bfd8d8b3b68cf6a7f9ac736fc247"
       },
-      "expiry": 1693121898617
+      "expiry": 1695711225021
     },
     "INTERPRETERS_CACHE_v3_CurrentPathService": [
       {
@@ -128,26 +128,28 @@
     },
     "preferredGlobalPyInterpreter": {
       "architecture": 3,
-      "path": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+      "path": "/opt/homebrew/bin/python3",
       "version": {
         "options": {
           "loose": false,
           "includePrerelease": false
         },
         "loose": false,
-        "raw": "3.11.3-final",
+        "raw": "3.11.4-final",
         "major": 3,
         "minor": 11,
-        "patch": 3,
+        "patch": 4,
         "prerelease": [
           "final"
         ],
         "build": [],
-        "version": "3.11.3-final"
+        "version": "3.11.4-final"
       },
       "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
-      "fileHash": "2b384f2b787f9e0997834f7f0f9f7fe023b3d234c15ae8dab29bf0fa05d3f652843af92d1f7bd6ba9b639b28c6ad40831980433edf08337542ed7a964b6c0d53",
-      "type": "Unknown"
+      "fileHash": "c762dbc9a3ead545d1356759718f2150f8e59c0fa5113b2fc092ad4beb54ba6f231de5d205f71af3cedb65860d82fde0008831402cbd6331136c9aa0e31e04be",
+      "type": "Unknown",
+      "cachedEntry": true,
+      "displayName": "Python 3.11.4 64-bit"
     },
     "/opt/homebrew/opt/python@3.11/bin/python3.11.interpreter.Details.v7": {
       "data": {
@@ -177,14 +179,14 @@
           "displayName": "Python 3.11.4 64-bit"
         }
       },
-      "expiry": 1693121898686
+      "expiry": 1695711225110
     },
     "/opt/homebrew/opt/python@3.11/bin/python3.11.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.11.4 64-bit",
         "hash": "1d8b14e695ca3061b6d9430cbc67a8220dc7f93499b1d18cecf4cef6f74a998c9da67cfe77ea865d49197ad23ab38919b570bfd8d8b3b68cf6a7f9ac736fc247-3f352c207f5ffa7ca6083375d482bba5"
       },
-      "expiry": 1693121898639
+      "expiry": 1695711225086
     },
     "/opt/homebrew/bin/python3.10.v3": {
       "data": {
@@ -209,7 +211,7 @@
         "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
         "fileHash": "f776bc71e1fcd31a632d27a940b8361cb28766576cc6e5e260cbf3fae13229a5662f386a8f77eddabc509e2b7fa2b7ddd779ffc9455b4cfb7ad46bd90c861813"
       },
-      "expiry": 1693121898709
+      "expiry": 1695710790914
     },
     "/usr/bin/python3.v3": {
       "data": {
@@ -234,7 +236,7 @@
         "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9",
         "fileHash": "1eccbdcbe105feb81fc58cf4015784105c9ee5a828ceaae3cedd7ce9fe0a03d3e1055e17202fb253568442f0f861b0d125affe08747ea342cee2435802a03736"
       },
-      "expiry": 1693121904540
+      "expiry": 1695710801146
     },
     "/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.v3": {
       "data": {
@@ -259,7 +261,7 @@
         "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.10",
         "fileHash": "1032523a8c0c585a3eb0657c54ff1dcf2f86e94c496ae3172ce7fb50711f9b6b28ffb284a1614fc2c90d78cf7152c936320423a3266b0245f365a8b6becacf24"
       },
-      "expiry": 1693121898810
+      "expiry": 1695710791052
     },
     "/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10.v3": {
       "data": {
@@ -284,7 +286,7 @@
         "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.10",
         "fileHash": "637f030a489d155e5e3910bc0f7f3aa338169a7e6c1c6830c8874a050347f353afe665dcb7a4c565e3bedd3b3045641fd8f1579e5f66cb7a350154003623c89b"
       },
-      "expiry": 1693121898816
+      "expiry": 1695710791051
     },
     "/usr/local/bin/python3.v3": {
       "data": {
@@ -309,7 +311,7 @@
         "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.10",
         "fileHash": "d902b79527ed64b0386b68c7ad2170bd01afe478570b480411fbd2f154775590ac535f4624acf73dff6c5cdddc8d1a832ea05e6c819b031d8fd99b0b171e5e4b"
       },
-      "expiry": 1693121898809
+      "expiry": 1695710791054
     },
     "/usr/local/bin/python3.10.v3": {
       "data": {
@@ -334,7 +336,7 @@
         "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.10",
         "fileHash": "d3c6e2acd3213b2c20cca0104e2a845d1975b4b5ec158213009f368f5c8e8728ea9a17f4793b10622122712df9f2253fbc5b7db852c00dd063d51d5d42047b5d"
       },
-      "expiry": 1693121898807
+      "expiry": 1695710791054
     },
     "INTERPRETERS_CACHE_v3_KnownPathsService": [
       {
@@ -594,38 +596,38 @@
     "PipEnvInformation": [],
     "/opt/homebrew/bin/python3.interpreter.displayName.v7": {
       "data": {
-        "displayName": "Python 3.11.3 64-bit",
-        "hash": "5702b6680a596173f4e609d81a6e9c691ec8a0487ad1cb9c0660889bf62acd30c7e3f3adfbd1ea756d4d35de69591543f7c5f2878d7e78fad456524652c624d5-8ee50534099874dfc1db1cb4a8243c33"
+        "displayName": "Python 3.11.4 64-bit",
+        "hash": "c762dbc9a3ead545d1356759718f2150f8e59c0fa5113b2fc092ad4beb54ba6f231de5d205f71af3cedb65860d82fde0008831402cbd6331136c9aa0e31e04be-ba2e91c361e8248d08ba28ecd77988aa"
       },
-      "expiry": 1690866012230
+      "expiry": 1695710801950
     },
     "/usr/local/bin/python3.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.10.5 64-bit",
         "hash": "d902b79527ed64b0386b68c7ad2170bd01afe478570b480411fbd2f154775590ac535f4624acf73dff6c5cdddc8d1a832ea05e6c819b031d8fd99b0b171e5e4b-b2ea5670551691946554bf0407b6b092"
       },
-      "expiry": 1690866012230
+      "expiry": 1695710801956
     },
     "/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.10.5 64-bit",
         "hash": "1032523a8c0c585a3eb0657c54ff1dcf2f86e94c496ae3172ce7fb50711f9b6b28ffb284a1614fc2c90d78cf7152c936320423a3266b0245f365a8b6becacf24-3e6793acb2eebb5f9451109a9c1ee504"
       },
-      "expiry": 1690866012231
+      "expiry": 1695710801954
     },
     "/opt/homebrew/bin/python3.10.interpreter.displayName.v7": {
       "data": {
-        "displayName": "Python 3.10.9 64-bit",
-        "hash": "9f433ff163c4d9b1cc6a4bf78800e36714ecfa613b4ab9876b970768f736fae0a28d95b591d5634a20ccb07fe56951fee40df0c8d2ae33324766c53bf6408e4e-b1ed0d93df53049d0227a28722dd7df6"
+        "displayName": "Python 3.10.12 64-bit",
+        "hash": "f776bc71e1fcd31a632d27a940b8361cb28766576cc6e5e260cbf3fae13229a5662f386a8f77eddabc509e2b7fa2b7ddd779ffc9455b4cfb7ad46bd90c861813-27fdd49950994b5f70e48248bc83049c"
       },
-      "expiry": 1690866012233
+      "expiry": 1695710801952
     },
     "/usr/bin/python3.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.9.6 64-bit",
-        "hash": "1eccbdcbe105feb81fc58cf4015784105c9ee5a828ceaae3cedd7ce9fe0a03d3e1055e17202fb253568442f0f861b0d125affe08747ea342cee2435802a03736-8ec019a1d1074fa483cf1d6eb22b4548"
+        "hash": "1eccbdcbe105feb81fc58cf4015784105c9ee5a828ceaae3cedd7ce9fe0a03d3e1055e17202fb253568442f0f861b0d125affe08747ea342cee2435802a03736-8f5d17f24a9d0c768b9211375618ba81"
       },
-      "expiry": 1690866012239
+      "expiry": 1695710801958
     },
     "InterpreterAutoSeletionRule-system": {
       "architecture": 3,
@@ -653,7 +655,7 @@
     },
     "/opt/homebrew/bin/python3.interpreter.Details.v7": {
       "data": {
-        "fileHash": "5702b6680a596173f4e609d81a6e9c691ec8a0487ad1cb9c0660889bf62acd30c7e3f3adfbd1ea756d4d35de69591543f7c5f2878d7e78fad456524652c624d5",
+        "fileHash": "c762dbc9a3ead545d1356759718f2150f8e59c0fa5113b2fc092ad4beb54ba6f231de5d205f71af3cedb65860d82fde0008831402cbd6331136c9aa0e31e04be",
         "info": {
           "architecture": 3,
           "path": "/opt/homebrew/bin/python3",
@@ -663,23 +665,23 @@
               "includePrerelease": false
             },
             "loose": false,
-            "raw": "3.11.3-final",
+            "raw": "3.11.4-final",
             "major": 3,
             "minor": 11,
-            "patch": 3,
+            "patch": 4,
             "prerelease": [
               "final"
             ],
             "build": [],
-            "version": "3.11.3-final"
+            "version": "3.11.4-final"
           },
           "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
-          "fileHash": "5702b6680a596173f4e609d81a6e9c691ec8a0487ad1cb9c0660889bf62acd30c7e3f3adfbd1ea756d4d35de69591543f7c5f2878d7e78fad456524652c624d5",
+          "fileHash": "c762dbc9a3ead545d1356759718f2150f8e59c0fa5113b2fc092ad4beb54ba6f231de5d205f71af3cedb65860d82fde0008831402cbd6331136c9aa0e31e04be",
           "type": "Unknown",
-          "displayName": "Python 3.11.3 64-bit"
+          "displayName": "Python 3.11.4 64-bit"
         }
       },
-      "expiry": 1690866012261
+      "expiry": 1695710801962
     },
     "/usr/local/bin/python3.interpreter.Details.v7": {
       "data": {
@@ -709,7 +711,7 @@
           "displayName": "Python 3.10.5 64-bit"
         }
       },
-      "expiry": 1690866012263
+      "expiry": 1695710801974
     },
     "/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.interpreter.Details.v7": {
       "data": {
@@ -739,11 +741,11 @@
           "displayName": "Python 3.10.5 64-bit"
         }
       },
-      "expiry": 1690866012265
+      "expiry": 1695710801970
     },
     "/opt/homebrew/bin/python3.10.interpreter.Details.v7": {
       "data": {
-        "fileHash": "9f433ff163c4d9b1cc6a4bf78800e36714ecfa613b4ab9876b970768f736fae0a28d95b591d5634a20ccb07fe56951fee40df0c8d2ae33324766c53bf6408e4e",
+        "fileHash": "f776bc71e1fcd31a632d27a940b8361cb28766576cc6e5e260cbf3fae13229a5662f386a8f77eddabc509e2b7fa2b7ddd779ffc9455b4cfb7ad46bd90c861813",
         "info": {
           "architecture": 3,
           "path": "/opt/homebrew/bin/python3.10",
@@ -753,23 +755,23 @@
               "includePrerelease": false
             },
             "loose": false,
-            "raw": "3.10.9-final",
+            "raw": "3.10.12-final",
             "major": 3,
             "minor": 10,
-            "patch": 9,
+            "patch": 12,
             "prerelease": [
               "final"
             ],
             "build": [],
-            "version": "3.10.9-final"
+            "version": "3.10.12-final"
           },
           "sysPrefix": "/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10",
-          "fileHash": "9f433ff163c4d9b1cc6a4bf78800e36714ecfa613b4ab9876b970768f736fae0a28d95b591d5634a20ccb07fe56951fee40df0c8d2ae33324766c53bf6408e4e",
+          "fileHash": "f776bc71e1fcd31a632d27a940b8361cb28766576cc6e5e260cbf3fae13229a5662f386a8f77eddabc509e2b7fa2b7ddd779ffc9455b4cfb7ad46bd90c861813",
           "type": "Unknown",
-          "displayName": "Python 3.10.9 64-bit"
+          "displayName": "Python 3.10.12 64-bit"
         }
       },
-      "expiry": 1690866012267
+      "expiry": 1695710801966
     },
     "/usr/bin/python3.interpreter.Details.v7": {
       "data": {
@@ -793,13 +795,13 @@
             "build": [],
             "version": "3.9.6-final"
           },
-          "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9",
+          "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9",
           "fileHash": "1eccbdcbe105feb81fc58cf4015784105c9ee5a828ceaae3cedd7ce9fe0a03d3e1055e17202fb253568442f0f861b0d125affe08747ea342cee2435802a03736",
           "type": "Unknown",
           "displayName": "Python 3.9.6 64-bit"
         }
       },
-      "expiry": 1690866012269
+      "expiry": 1695710801977
     },
     "ProposeLSBanner": false,
     "InterpreterAutoSeletionRule-cachedInterpreters": {
@@ -811,21 +813,169 @@
           "includePrerelease": false
         },
         "loose": false,
-        "raw": "3.11.3-final",
+        "raw": "3.11.4-final",
         "major": 3,
         "minor": 11,
-        "patch": 3,
+        "patch": 4,
         "prerelease": [
           "final"
         ],
         "build": [],
-        "version": "3.11.3-final"
+        "version": "3.11.4-final"
       },
       "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
-      "fileHash": "2b384f2b787f9e0997834f7f0f9f7fe023b3d234c15ae8dab29bf0fa05d3f652843af92d1f7bd6ba9b639b28c6ad40831980433edf08337542ed7a964b6c0d53",
+      "fileHash": "1d8b14e695ca3061b6d9430cbc67a8220dc7f93499b1d18cecf4cef6f74a998c9da67cfe77ea865d49197ad23ab38919b570bfd8d8b3b68cf6a7f9ac736fc247",
       "type": "Unknown",
-      "cachedEntry": true,
-      "displayName": "Python 3.11.3 64-bit"
+      "displayName": "Python 3.11.4 64-bit"
+    },
+    "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection/bin/python3.11.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection/bin/python3.11",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.11.4-final",
+          "major": 3,
+          "minor": 11,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.11.4-final"
+        },
+        "sysPrefix": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection",
+        "fileHash": "48c80ac69d3856fb9c2f2f104eb793f6f3bf17b748646e64242f76431c39a20bd2e68bd3ad664cf88e93b09b5dce27b684f308819384d30381c022dafaf26a3f"
+      },
+      "expiry": 1695710790898
+    },
+    "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.11.4-final",
+          "major": 3,
+          "minor": 11,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.11.4-final"
+        },
+        "sysPrefix": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection",
+        "fileHash": "b69b0c745a244935e811f27a2de8a59dacd60d06ab70aa627ee9e68c8cdcd6d4308c13e29b6bd3718d4cc072fa4f8524e3c81b29846b1c3250446a9cc38609c9"
+      },
+      "expiry": 1695710790900
+    },
+    "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.11.4-final",
+          "major": 3,
+          "minor": 11,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.11.4-final"
+        },
+        "sysPrefix": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection",
+        "fileHash": "41ede66a1eeef8e8319bf3bb9aa7d27a711b24a05f7b5600e40b1a11f6bc6d4d93b64664e6e9f68f9b626468d319f4630bbf1935af3210c2f133ae009a3212d9"
+      },
+      "expiry": 1695710790899
+    },
+    "InterpreterAutoSeletionRule-environment": {
+      "architecture": 3,
+      "path": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.11.4-final",
+        "major": 3,
+        "minor": 11,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.11.4-final"
+      },
+      "sysPrefix": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection",
+      "fileHash": "b69b0c745a244935e811f27a2de8a59dacd60d06ab70aa627ee9e68c8cdcd6d4308c13e29b6bd3718d4cc072fa4f8524e3c81b29846b1c3250446a9cc38609c9",
+      "type": "VirtualEnv"
+    },
+    "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "b69b0c745a244935e811f27a2de8a59dacd60d06ab70aa627ee9e68c8cdcd6d4308c13e29b6bd3718d4cc072fa4f8524e3c81b29846b1c3250446a9cc38609c9"
+      },
+      "expiry": 1695710790885
+    },
+    "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.11.4 64-bit ('anomalydetection': venv)",
+        "hash": "41ede66a1eeef8e8319bf3bb9aa7d27a711b24a05f7b5600e40b1a11f6bc6d4d93b64664e6e9f68f9b626468d319f4630bbf1935af3210c2f133ae009a3212d9-9eb8f6b68920b13c3b1452d956461c1f"
+      },
+      "expiry": 1695710790923
+    },
+    "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "41ede66a1eeef8e8319bf3bb9aa7d27a711b24a05f7b5600e40b1a11f6bc6d4d93b64664e6e9f68f9b626468d319f4630bbf1935af3210c2f133ae009a3212d9",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.11.4-final",
+            "major": 3,
+            "minor": 11,
+            "patch": 4,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.11.4-final"
+          },
+          "sysPrefix": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection",
+          "fileHash": "41ede66a1eeef8e8319bf3bb9aa7d27a711b24a05f7b5600e40b1a11f6bc6d4d93b64664e6e9f68f9b626468d319f4630bbf1935af3210c2f133ae009a3212d9",
+          "envName": "anomalydetection",
+          "type": "Venv",
+          "displayName": "Python 3.11.4 64-bit ('anomalydetection': venv)"
+        }
+      },
+      "expiry": 1695710790940
+    },
+    "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.11.4 64-bit ('anomalydetection': venv)",
+        "hash": "b69b0c745a244935e811f27a2de8a59dacd60d06ab70aa627ee9e68c8cdcd6d4308c13e29b6bd3718d4cc072fa4f8524e3c81b29846b1c3250446a9cc38609c9-f654fb8530612360c689511fcd10c606"
+      },
+      "expiry": 1695710790962
     }
   },
   "coc-python|/Users/chaitanyashahare/Documents/ml-Kamal/L01": {
@@ -856,5 +1006,215 @@
       "fileHash": "2b384f2b787f9e0997834f7f0f9f7fe023b3d234c15ae8dab29bf0fa05d3f652843af92d1f7bd6ba9b639b28c6ad40831980433edf08337542ed7a964b6c0d53",
       "type": "Unknown"
     }
+  },
+  "coc-rust-analyzer|global": {
+    "release": "2023-09-11"
+  },
+  "coc-python|/Users/chaitanyashahare/Documents/SmartIndiaHackathon": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:e8163d9ffc7764e44dc9d789d6a52d0d": [],
+    "SelectedPythonPath": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection/bin/python3",
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:e8163d9ffc7764e44dc9d789d6a52d0d": [
+      {
+        "architecture": 3,
+        "path": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.11.4-final",
+          "major": 3,
+          "minor": 11,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.11.4-final"
+        },
+        "sysPrefix": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection",
+        "fileHash": "41ede66a1eeef8e8319bf3bb9aa7d27a711b24a05f7b5600e40b1a11f6bc6d4d93b64664e6e9f68f9b626468d319f4630bbf1935af3210c2f133ae009a3212d9",
+        "envName": "anomalydetection",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.11.4-final",
+          "major": 3,
+          "minor": 11,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.11.4-final"
+        },
+        "sysPrefix": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection",
+        "fileHash": "b69b0c745a244935e811f27a2de8a59dacd60d06ab70aa627ee9e68c8cdcd6d4308c13e29b6bd3718d4cc072fa4f8524e3c81b29846b1c3250446a9cc38609c9",
+        "envName": "anomalydetection",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection/bin/python3.11",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.11.4-final",
+          "major": 3,
+          "minor": 11,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.11.4-final"
+        },
+        "sysPrefix": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection",
+        "fileHash": "48c80ac69d3856fb9c2f2f104eb793f6f3bf17b748646e64242f76431c39a20bd2e68bd3ad664cf88e93b09b5dce27b684f308819384d30381c022dafaf26a3f",
+        "envName": "anomalydetection",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/Users/chaitanyashahare/Documents/SmartIndiaHackathon": {
+      "architecture": 3,
+      "path": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.11.4-final",
+        "major": 3,
+        "minor": 11,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.11.4-final"
+      },
+      "sysPrefix": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection",
+      "fileHash": "b69b0c745a244935e811f27a2de8a59dacd60d06ab70aa627ee9e68c8cdcd6d4308c13e29b6bd3718d4cc072fa4f8524e3c81b29846b1c3250446a9cc38609c9",
+      "type": "VirtualEnv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.11.4-final",
+          "major": 3,
+          "minor": 11,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.11.4-final"
+        },
+        "sysPrefix": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection",
+        "fileHash": "41ede66a1eeef8e8319bf3bb9aa7d27a711b24a05f7b5600e40b1a11f6bc6d4d93b64664e6e9f68f9b626468d319f4630bbf1935af3210c2f133ae009a3212d9",
+        "envName": "anomalydetection",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.11.4-final",
+          "major": 3,
+          "minor": 11,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.11.4-final"
+        },
+        "sysPrefix": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection",
+        "fileHash": "b69b0c745a244935e811f27a2de8a59dacd60d06ab70aa627ee9e68c8cdcd6d4308c13e29b6bd3718d4cc072fa4f8524e3c81b29846b1c3250446a9cc38609c9",
+        "envName": "anomalydetection",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection/bin/python3.11",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.11.4-final",
+          "major": 3,
+          "minor": 11,
+          "patch": 4,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.11.4-final"
+        },
+        "sysPrefix": "/Users/chaitanyashahare/Documents/SmartIndiaHackathon/anomalydetection",
+        "fileHash": "48c80ac69d3856fb9c2f2f104eb793f6f3bf17b748646e64242f76431c39a20bd2e68bd3ad664cf88e93b09b5dce27b684f308819384d30381c022dafaf26a3f",
+        "envName": "anomalydetection",
+        "type": "Venv"
+      }
+    ]
+  },
+  "coc-python|/Users/chaitanyashahare/Documents/test": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:4b84e603f39c2c096c9c686da00f2e94": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:4b84e603f39c2c096c9c686da00f2e94": [],
+    "autoSelectedWorkspacePythonInterpreter-/Users/chaitanyashahare/Documents/test": {
+      "architecture": 3,
+      "path": "/opt/homebrew/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.11.4-final",
+        "major": 3,
+        "minor": 11,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.11.4-final"
+      },
+      "sysPrefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+      "fileHash": "c762dbc9a3ead545d1356759718f2150f8e59c0fa5113b2fc092ad4beb54ba6f231de5d205f71af3cedb65860d82fde0008831402cbd6331136c9aa0e31e04be",
+      "type": "Unknown",
+      "cachedEntry": true,
+      "displayName": "Python 3.11.4 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
   }
 }

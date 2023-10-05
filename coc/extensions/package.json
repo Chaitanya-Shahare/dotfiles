@@ -3,11 +3,13 @@
     "coc-html": ">=1.8.0",
     "coc-css": ">=2.0.0",
     "coc-tsserver": ">=2.1.0",
-    "coc-java": ">=1.5.6",
+    "coc-java": ">=1.14.1",
     "coc-snippets": ">=3.1.6",
     "@yaegassy/coc-tailwindcss3": ">=0.4.5",
     "coc-prettier": ">=9.3.1",
     "coc-sh": ">=1.0.2",
-    "coc-python": ">=1.2.13"
+    "coc-python": ">=1.2.13",
+    "coc-rust-analyzer": ">=0.73.0",
+    "coc-clangd": ">=0.29.3"
   }
 }

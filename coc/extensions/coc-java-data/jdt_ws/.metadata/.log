@@ -1,0 +1,2385 @@
+!SESSION 2023-09-14 11:15:50.104 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.024
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.088
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.105
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.106
+!MESSAGE Initializing Java Language Server 1.19.0.202301170526
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.217
+!MESSAGE Default VM Install changed from  null to com.oracle.java.jdk-/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.225
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.225
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.228
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.228
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.497
+!MESSAGE ProjectRegistryRefreshJob finished 269ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.497
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.506
+!MESSAGE Started org.eclipse.buildship.core 9ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.514
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.522
+!MESSAGE RepositoryRegistryUpdateJob finished 13ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.527
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.563
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.850
+!MESSAGE Try to create an invisible project for the workspace /Users/chaitanyashahare/Documents/test
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.850
+!MESSAGE Creating the Java project test_84181c46
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.858
+!MESSAGE Finished creating the Java project test_84181c46
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.940
+!MESSAGE Successfully created a workspace invisible project test_84181c46
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.953
+!MESSAGE Workspace initialized in 444ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.989
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.990
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.994
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.995
+!MESSAGE >> New configuration: {java={enabled=true, home=/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home, jdt={ls={vmargs=-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable, directory=null, statusIcons=null, java={home=null}, lombokSupport={enabled=true}, protobufSupport={enabled=true}, androidSupport={enabled=false}}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=false, updateBuildConfiguration=interactive, maven={userSettings=null, globalSettings=null, notCoveredPluginExecutionSeverity=warning}, runtimes=[], workspaceCacheLimit=90.0}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, version=null, home=null, java={home=null}, offline={enabled=false}, arguments=null, jvmArguments=null, user={home=null}, annotationProcessing={enabled=true}}, maven={enabled=true, offline={enabled=false}}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], generatesMetadataFilesAtProjectRoot=false}, imports={gradle={wrapper={checksums=[]}}}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=true, description={enabled=false}}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, \.git], importOnFirstTimeStartup=automatic, importHint=true, encoding=ignore}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, guessMethodArguments=true, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*, sun.*, jdk.*, org.graalvm.*, io.micrometer.shaded.*], importOrder=[#, java, javax, org, com, ], postfix={enabled=true}, matchCase=off}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}, insertionLocation=afterCursor}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true, includeDecompiledSources=true}, eclipse={downloadSources=false}, recommendations={dependency={analytics={show=true}}}, showBuildStatusOnStart={enabled=notification}, server={launchMode=Standard}, typeHierarchy={lazyLoad=false}, settings={url=null}, symbols={includeSourceMethodDeclarations=false}, quickfix={showAt=line}, inlayHints={parameterNames={enabled=literals, exclusions=[]}}, codeAction={sortMembers={avoidVolatileChanges=true}}, compile={nullAnalysis={nonnull=[javax.annotation.Nonnull, org.eclipse.jdt.annotation.NonNull, org.springframework.lang.NonNull], nullable=[javax.annotation.Nullable, org.eclipse.jdt.annotation.Nullable, org.springframework.lang.Nullable], mode=interactive}}, cleanup={actionsOnSave=[]}, sharedIndexes={enabled=auto, location=}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:51.996
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:52.129
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:52.129
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:52.953
+!MESSAGE >> Updating classpath for project test_84181c46
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:54.219
+!MESSAGE begin problem for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:54.219
+!MESSAGE 0 problems reported for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:54.221
+!MESSAGE Validated 1. Took 85 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:54.390
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:54.392
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:54.392
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:54.393
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:54.407
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:54.408
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:54.408
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:15:54.410
+!MESSAGE >> workspace/executeCommand java.project.getClasspaths
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:07.897
+!MESSAGE >> document/didClose
+!SESSION 2023-09-14 11:16:11.469 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-09-14 11:16:11.884
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:12.180
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:12.236
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:12.256
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:12.257
+!MESSAGE Initializing Java Language Server 1.19.0.202301170526
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:12.268
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:12.268
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:12.273
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:12.273
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:12.587
+!MESSAGE ProjectRegistryRefreshJob finished 314ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:12.588
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:12.597
+!MESSAGE Started org.eclipse.buildship.core 9ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:12.611
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:12.615
+!MESSAGE RepositoryRegistryUpdateJob finished 13ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:12.797
+!MESSAGE Workspace initialized in 195ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:12.806
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:12.809
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:12.814
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:12.815
+!MESSAGE >> New configuration: {java={enabled=true, home=/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home, jdt={ls={directory=null, statusIcons=null, java={home=null}, vmargs=-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable, lombokSupport={enabled=true}, protobufSupport={enabled=true}, androidSupport={enabled=false}}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=false, updateBuildConfiguration=interactive, maven={userSettings=null, globalSettings=null, notCoveredPluginExecutionSeverity=warning}, workspaceCacheLimit=90.0, runtimes=[]}, trace={server=off}, import={maven={enabled=true, offline={enabled=false}}, gradle={enabled=true, wrapper={enabled=true}, version=null, home=null, java={home=null}, offline={enabled=false}, arguments=null, jvmArguments=null, user={home=null}, annotationProcessing={enabled=true}}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], generatesMetadataFilesAtProjectRoot=false}, maven={downloadSources=false, updateSnapshots=false}, eclipse={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=true, description={enabled=false}}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], importOnFirstTimeStartup=automatic, importHint=true, resourceFilters=[node_modules, \.git], encoding=ignore}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, recommendations={dependency={analytics={show=true}}}, completion={maxResults=0.0, enabled=true, guessMethodArguments=true, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*, sun.*, jdk.*, org.graalvm.*, io.micrometer.shaded.*], importOrder=[#, java, javax, org, com, ], postfix={enabled=true}, matchCase=off}, foldingRange={enabled=true}, progressReports={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}, insertionLocation=afterCursor}, selectionRange={enabled=true}, showBuildStatusOnStart={enabled=notification}, server={launchMode=Standard}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, imports={gradle={wrapper={checksums=[]}}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true, includeDecompiledSources=true}, typeHierarchy={lazyLoad=false}, settings={url=null}, symbols={includeSourceMethodDeclarations=false}, quickfix={showAt=line}, inlayHints={parameterNames={enabled=literals, exclusions=[]}}, codeAction={sortMembers={avoidVolatileChanges=true}}, compile={nullAnalysis={nonnull=[javax.annotation.Nonnull, org.eclipse.jdt.annotation.NonNull, org.springframework.lang.NonNull], nullable=[javax.annotation.Nullable, org.eclipse.jdt.annotation.Nullable, org.springframework.lang.Nullable], mode=interactive}}, cleanup={actionsOnSave=[]}, sharedIndexes={enabled=auto, location=}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:12.816
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:12.868
+!MESSAGE >> Updating classpath for project test_84181c46
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:14.558
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:14.576
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:14.618
+!MESSAGE begin problem for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:14.618
+!MESSAGE 0 problems reported for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:14.619
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:14.620
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:14.622
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:14.623
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:14.624
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:14.635
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:14.637
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:14.640
+!MESSAGE >> workspace/executeCommand java.project.getClasspaths
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:14.640
+!MESSAGE >> workspace/executeCommand java.project.getSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:15.198
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:17.183
+!MESSAGE >> document/formatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:17.232
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:17.294
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:17.333
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:17.498
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:17.731
+!MESSAGE begin problem for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:17.732
+!MESSAGE 0 problems reported for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:17.732
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:18.615
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:18.632
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:18.796
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:18.799
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:19.104
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:29.118
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:29.125
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:42.655
+!MESSAGE >> java/didChangeWorkspaceFolders
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:42.971
+!MESSAGE Updated workspace folders in 314 ms: Added 1 folder(s), removed0 folders.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:42.975
+!MESSAGE Projects:
+jdt.ls-java-project: /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws/jdt.ls-java-project
+  resolved classpath:
+  /jdt.ls-java-project/src
+  org.eclipse.jdt.launching.JRE_CONTAINER
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+test_84181c46: /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws/test_84181c46
+  resolved classpath:
+  org.eclipse.jdt.launching.JRE_CONTAINER
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+    /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib/jrt-fs.jar
+  /test_84181c46/_
+Java Runtimes:
+  default: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home  CDC 1.0, Foundation 1.0: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Minimum environment to run the OSGi framework 1.0: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  CDC 1.1, Foundation 1.1: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Java Runtime Environment 1.1: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Minimum environment to run the OSGi framework 1.1: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Java 2 Platform, Standard Edition 1.2: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Minimum environment to run the OSGi framework 1.2: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Java 2 Platform, Standard Edition 1.3: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Java 2 Platform, Standard Edition 1.4: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Java 2 Platform, Standard Edition 5.0: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Java Platform, Standard Edition 6.0: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Java Platform, Standard Edition 7.0: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Java Platform, Standard Edition 8.0: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Java Platform, Standard Edition 9: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Java Platform, Standard Edition 10: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Java Platform, Standard Edition 11: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Java Platform, Standard Edition 12: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Java Platform, Standard Edition 13: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Java Platform, Standard Edition 14: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Java Platform, Standard Edition 15: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Java Platform, Standard Edition 16: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Java Platform, Standard Edition 17: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Java Platform, Standard Edition 18: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+  Java Platform, Standard Edition 19: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
+
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:43.009
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:16:43.009
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:17:28.213
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:17:28.233
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:18:23.524
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:18:23.534
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:18:50.050
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:18:50.054
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:03.325
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:03.326
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:03.326
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:03.331
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:03.639
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:03.640
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:03.642
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:03.642
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:04.625
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:04.626
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:04.628
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:04.629
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:05.324
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:05.341
+!MESSAGE Reconciled 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:05.603
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:05.627
+!MESSAGE Reconciled 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:05.954
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:05.975
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:06.260
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:06.281
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:06.429
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:06.438
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:06.447
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:06.506
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:06.512
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:06.874
+!MESSAGE begin problem for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:06.875
+!MESSAGE 1 problems reported for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:06.875
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:08.023
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:08.043
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:08.047
+!MESSAGE >> workspace/executeCommand java.completion.onDidSelect
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:08.050
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:08.051
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:08.468
+!MESSAGE begin problem for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:08.469
+!MESSAGE 1 problems reported for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:08.470
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:08.745
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:08.747
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:08.748
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:08.764
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:08.930
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:08.933
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:08.948
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:08.952
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:08.958
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:09.112
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:09.129
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:09.554
+!MESSAGE begin problem for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:09.554
+!MESSAGE 1 problems reported for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:09.555
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:09.669
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:09.680
+!MESSAGE >> workspace/executeCommand java.completion.onDidSelect
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:09.681
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:09.681
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:09.684
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:10.106
+!MESSAGE begin problem for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:10.107
+!MESSAGE 1 problems reported for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:10.108
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:10.113
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:10.114
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:10.115
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:10.128
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:10.549
+!MESSAGE begin problem for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:10.550
+!MESSAGE 1 problems reported for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:10.550
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:13.209
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:13.211
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:13.220
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:13.226
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:13.657
+!MESSAGE begin problem for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:13.658
+!MESSAGE 3 problems reported for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:13.658
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:14.234
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:14.256
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:14.587
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:14.591
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:14.597
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:14.605
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:14.706
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:14.723
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:15.160
+!MESSAGE begin problem for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:15.160
+!MESSAGE 8 problems reported for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:15.161
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:15.906
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:15.922
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:16.148
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:16.165
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:16.415
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:16.433
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:16.600
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:16.617
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:16.760
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:16.778
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:17.178
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:17.181
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:17.185
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:17.192
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:17.608
+!MESSAGE begin problem for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:17.609
+!MESSAGE 3 problems reported for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:17.609
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:18.328
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:18.345
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:18.712
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:18.715
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:18.721
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:18.730
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:18.799
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:18.815
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:19.247
+!MESSAGE begin problem for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:19.247
+!MESSAGE 8 problems reported for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:19.248
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:20.020
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:20.039
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:20.467
+!MESSAGE begin problem for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:20.467
+!MESSAGE 8 problems reported for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:20.468
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:21.040
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:21.059
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:21.229
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:21.249
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:21.676
+!MESSAGE begin problem for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:21.677
+!MESSAGE 8 problems reported for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:21.677
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:22.367
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:22.371
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:22.377
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:22.385
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:22.815
+!MESSAGE begin problem for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:22.815
+!MESSAGE 8 problems reported for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:22.816
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:23.234
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:23.253
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:23.519
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:23.522
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:23.526
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:23.536
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:23.958
+!MESSAGE begin problem for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:23.958
+!MESSAGE 9 problems reported for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:23.959
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:26.425
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:26.444
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:26.526
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:26.751
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:26.752
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:26.753
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:26.754
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:26.870
+!MESSAGE begin problem for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:26.871
+!MESSAGE 9 problems reported for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:26.872
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:27.301
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:27.311
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:27.599
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:27.614
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:27.614
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:27.615
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:27.615
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:28.028
+!MESSAGE begin problem for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:28.028
+!MESSAGE 9 problems reported for /merge-sorted-array.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:28.029
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:29.821
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:29.821
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:29.822
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:29.822
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:45.365
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:45.368
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:45.379
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:45.381
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:45.386
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:45.391
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:45.422
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:45.438
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:45.523
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:45.562
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:45.989
+!MESSAGE begin problem for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:45.990
+!MESSAGE 9 problems reported for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:45.991
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:51.611
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:51.612
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:51.613
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:51.613
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:53.121
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:53.121
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:53.123
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:53.124
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:54.926
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:54.974
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:54.992
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:55.145
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:55.146
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:55.146
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:55.147
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:55.416
+!MESSAGE begin problem for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:55.416
+!MESSAGE 6 problems reported for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:55.416
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:56.262
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:56.281
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:56.516
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:56.534
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:56.728
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:56.747
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:56.948
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:56.967
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:57.370
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:57.387
+!MESSAGE begin problem for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:57.388
+!MESSAGE 2 problems reported for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:57.388
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:57.592
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:57.593
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:57.593
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:57.594
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:57.862
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:57.868
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:58.140
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:58.200
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:58.200
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:58.202
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:58.202
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:58.558
+!MESSAGE begin problem for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:58.558
+!MESSAGE 2 problems reported for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:58.558
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:59.239
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:59.239
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:59.240
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:19:59.240
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:00.151
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:00.153
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:00.153
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:00.154
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:03.383
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:03.383
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:03.384
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:03.384
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:03.949
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:03.951
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:03.951
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:03.952
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:04.385
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:04.386
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:04.386
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:04.387
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:04.806
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:04.809
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:04.823
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:04.894
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:04.927
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:04.989
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:05.004
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:05.009
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:05.416
+!MESSAGE begin problem for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:05.417
+!MESSAGE 3 problems reported for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:05.417
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:05.738
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:05.746
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:05.747
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:05.753
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:06.152
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:06.171
+!MESSAGE begin problem for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:06.171
+!MESSAGE 2 problems reported for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:06.171
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:06.643
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:06.649
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:06.967
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:07.396
+!MESSAGE begin problem for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:07.396
+!MESSAGE 2 problems reported for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:07.396
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:08.256
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:08.274
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:08.357
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:08.635
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:08.641
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:08.689
+!MESSAGE begin problem for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:08.690
+!MESSAGE 1 problems reported for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:08.690
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:08.856
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:08.858
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:08.985
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:09.042
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:09.044
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:09.405
+!MESSAGE begin problem for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:09.405
+!MESSAGE 1 problems reported for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:09.405
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:09.949
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:09.950
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:09.950
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:09.951
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:10.002
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:10.426
+!MESSAGE begin problem for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:10.427
+!MESSAGE 1 problems reported for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:10.427
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:12.784
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:12.801
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:13.215
+!MESSAGE begin problem for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:13.216
+!MESSAGE 0 problems reported for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:13.216
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:13.274
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:14.110
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:14.116
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:14.940
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:15.364
+!MESSAGE begin problem for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:15.364
+!MESSAGE 0 problems reported for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:15.365
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:16.236
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:16.238
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:49.175
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:49.178
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:49.184
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:49.187
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:49.196
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:49.611
+!MESSAGE begin problem for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:49.611
+!MESSAGE 0 problems reported for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:49.611
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:20:58.426
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:26.299
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:26.303
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:46.924
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:46.925
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:46.925
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:46.925
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:46.928
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:46.928
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:47.733
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:47.734
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:47.734
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:47.735
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:47.736
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:47.736
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:48.968
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:48.987
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:49.399
+!MESSAGE begin problem for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:49.400
+!MESSAGE 1 problems reported for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:49.400
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:49.449
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:49.451
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:49.453
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:49.464
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:49.876
+!MESSAGE begin problem for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:49.877
+!MESSAGE 1 problems reported for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:49.877
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:50.266
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:50.283
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:50.368
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:50.595
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:50.595
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:50.596
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:50.596
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:50.596
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:50.596
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:50.703
+!MESSAGE begin problem for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:50.704
+!MESSAGE 1 problems reported for /MergeSortedArray.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:50.704
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:53.561
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:53.607
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:53.878
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:53.879
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:53.879
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:53.880
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:53.880
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:53.881
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:55.482
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:55.483
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:55.484
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:55.484
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:55.485
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:55.485
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:56.354
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:56.354
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:56.354
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:56.355
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:56.355
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:56.355
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:57.216
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:57.218
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:57.218
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:57.219
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:57.219
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:21:57.220
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:11.232
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:11.238
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:11.243
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:11.247
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:11.257
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:11.257
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:11.285
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:11.286
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:11.302
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:11.388
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:11.726
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:11.726
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:11.727
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:13.121
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:13.122
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:13.122
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:13.123
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:13.123
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:13.124
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:15.357
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:15.360
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:15.697
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:15.698
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:15.698
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:15.699
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:15.699
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:15.699
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:15.792
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:15.796
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:15.976
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:15.978
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:16.309
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:16.310
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:16.312
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:16.312
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:16.313
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:16.313
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:17.385
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:17.387
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:19.260
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:19.263
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:19.597
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:19.598
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:20.308
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:20.309
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:20.309
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:20.310
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:20.310
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:20.311
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:20.611
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:20.613
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:23.195
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:23.196
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:23.196
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:23.197
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:23.198
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-14 11:22:23.199
+!MESSAGE >> document/documentHighlight
+!SESSION 2023-09-24 19:17:13.922 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-09-24 19:17:14.413
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:14.807
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:14.890
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:14.910
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:14.911
+!MESSAGE Initializing Java Language Server 1.19.0.202301170526
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:14.920
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:14.920
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:14.923
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:14.923
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:15.247
+!MESSAGE ProjectRegistryRefreshJob finished 324ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:15.247
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:15.257
+!MESSAGE Started org.eclipse.buildship.core 9ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:15.271
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:15.283
+!MESSAGE RepositoryRegistryUpdateJob finished 23ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-09-24 19:17:15.378
+!MESSAGE Failed to read package name from file:/Users/chaitanyashahare/Documents/test/testingSpeeds/HelloWorld.java
+!STACK 0
+java.io.FileNotFoundException: /Users/chaitanyashahare/Documents/test/testingSpeeds/HelloWorld.java (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at com.google.common.io.Files$FileByteSource.openStream(Files.java:130)
+	at com.google.common.io.Files$FileByteSource.read(Files.java:154)
+	at com.google.common.io.ByteSource$AsCharSource.read(ByteSource.java:472)
+	at com.google.common.io.Files.toString(Files.java:254)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getPackageName(JDTUtils.java:301)
+	at org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporter.getPackageName(InvisibleProjectImporter.java:563)
+	at org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporter.getPackageName(InvisibleProjectImporter.java:541)
+	at org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporter.getPackageName(InvisibleProjectImporter.java:531)
+	at org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporter.loadInvisibleProject(InvisibleProjectImporter.java:129)
+	at org.eclipse.jdt.ls.core.internal.managers.InvisibleProjectImporter.importToWorkspace(InvisibleProjectImporter.java:110)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:148)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:111)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:242)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:15.389
+!MESSAGE Workspace initialized in 130ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:15.406
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:15.407
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:15.412
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:15.414
+!MESSAGE >> New configuration: {java={enabled=true, home=/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home, jdt={ls={directory=null, statusIcons=null, java={home=null}, vmargs=-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable, lombokSupport={enabled=true}, protobufSupport={enabled=true}, androidSupport={enabled=false}}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=false, updateBuildConfiguration=interactive, maven={userSettings=null, globalSettings=null, notCoveredPluginExecutionSeverity=warning}, workspaceCacheLimit=90.0, runtimes=[]}, trace={server=off}, import={maven={enabled=true, offline={enabled=false}}, gradle={enabled=true, wrapper={enabled=true}, version=null, home=null, java={home=null}, offline={enabled=false}, arguments=null, jvmArguments=null, user={home=null}, annotationProcessing={enabled=true}}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], generatesMetadataFilesAtProjectRoot=false}, maven={downloadSources=false, updateSnapshots=false}, eclipse={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=true, description={enabled=false}}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], importOnFirstTimeStartup=automatic, importHint=true, resourceFilters=[node_modules, \.git], encoding=ignore}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, recommendations={dependency={analytics={show=true}}}, completion={maxResults=0.0, enabled=true, guessMethodArguments=true, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*, sun.*, jdk.*, org.graalvm.*, io.micrometer.shaded.*], importOrder=[#, java, javax, org, com, ], postfix={enabled=true}, matchCase=off}, foldingRange={enabled=true}, progressReports={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}, insertionLocation=afterCursor}, selectionRange={enabled=true}, showBuildStatusOnStart={enabled=notification}, server={launchMode=Standard}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, imports={gradle={wrapper={checksums=[]}}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true, includeDecompiledSources=true}, typeHierarchy={lazyLoad=false}, settings={url=null}, symbols={includeSourceMethodDeclarations=false}, quickfix={showAt=line}, inlayHints={parameterNames={enabled=literals, exclusions=[]}}, codeAction={sortMembers={avoidVolatileChanges=true}}, compile={nullAnalysis={nonnull=[javax.annotation.Nonnull, org.eclipse.jdt.annotation.NonNull, org.springframework.lang.NonNull], nullable=[javax.annotation.Nullable, org.eclipse.jdt.annotation.Nullable, org.springframework.lang.Nullable], mode=interactive}}, cleanup={actionsOnSave=[]}, sharedIndexes={enabled=auto, location=}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:15.415
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:15.724
+!MESSAGE >> Updating classpath for project test_84181c46
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:15.751
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:15.753
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:15.754
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:15.754
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:15.765
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:15.765
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:15.767
+!MESSAGE >> workspace/executeCommand java.project.getSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:15.767
+!MESSAGE >> workspace/executeCommand java.project.getClasspaths
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:17.721
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:17.728
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-09-24 19:17:17.731
+!MESSAGE Problem with codeComplete for file:///Users/chaitanyashahare/Documents/test/testingSpeeds/HelloWorld.java
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): HelloWorld.java [in <default> [in _/testingSpeeds [in test_84181c46]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:584)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.computeContentAssist(CompletionHandler.java:179)
+	at org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.completion(CompletionHandler.java:93)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$5(JDTLanguageServer.java:580)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:79)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1840)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-09-24 19:17:17.732
+!MESSAGE HelloWorld.java [in <default> [in _/testingSpeeds [in test_84181c46]]] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:17.732
+!MESSAGE Completion request cancelled
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:18.621
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:18.633
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:18.646
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-09-24 19:17:18.647
+!MESSAGE Find signatureHelp failure 
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): HelloWorld.java [in <default> [in _/testingSpeeds [in test_84181c46]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:584)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)
+	at org.eclipse.jdt.ls.core.internal.handlers.SignatureHelpHandler.signatureHelp(SignatureHelpHandler.java:78)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$8(JDTLanguageServer.java:628)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:79)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1840)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-09-24 19:17:18.647
+!MESSAGE HelloWorld.java [in <default> [in _/testingSpeeds [in test_84181c46]]] does not exist
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:22.637
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:23.145
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:23.626
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:23.646
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:25.567
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:25.572
+!MESSAGE Clearing problems for /HelloWorld.java
+!SESSION 2023-09-24 19:17:51.001 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-09-24 19:17:51.453
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:51.818
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:51.944
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:51.967
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:51.969
+!MESSAGE Initializing Java Language Server 1.19.0.202301170526
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:51.980
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:51.980
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:51.983
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:51.983
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.316
+!MESSAGE ProjectRegistryRefreshJob finished 333ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.316
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.326
+!MESSAGE Started org.eclipse.buildship.core 10ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.336
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.340
+!MESSAGE RepositoryRegistryUpdateJob finished 11ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.482
+!MESSAGE Workspace initialized in 153ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.494
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.495
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.499
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.500
+!MESSAGE >> New configuration: {java={enabled=true, home=/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home, jdt={ls={directory=null, statusIcons=null, java={home=null}, vmargs=-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable, lombokSupport={enabled=true}, protobufSupport={enabled=true}, androidSupport={enabled=false}}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=false, updateBuildConfiguration=interactive, maven={userSettings=null, globalSettings=null, notCoveredPluginExecutionSeverity=warning}, workspaceCacheLimit=90.0, runtimes=[]}, trace={server=off}, import={maven={enabled=true, offline={enabled=false}}, gradle={enabled=true, wrapper={enabled=true}, version=null, home=null, java={home=null}, offline={enabled=false}, arguments=null, jvmArguments=null, user={home=null}, annotationProcessing={enabled=true}}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], generatesMetadataFilesAtProjectRoot=false}, maven={downloadSources=false, updateSnapshots=false}, eclipse={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=true, description={enabled=false}}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], importOnFirstTimeStartup=automatic, importHint=true, resourceFilters=[node_modules, \.git], encoding=ignore}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, recommendations={dependency={analytics={show=true}}}, completion={maxResults=0.0, enabled=true, guessMethodArguments=true, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*, sun.*, jdk.*, org.graalvm.*, io.micrometer.shaded.*], importOrder=[#, java, javax, org, com, ], postfix={enabled=true}, matchCase=off}, foldingRange={enabled=true}, progressReports={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}, insertionLocation=afterCursor}, selectionRange={enabled=true}, showBuildStatusOnStart={enabled=notification}, server={launchMode=Standard}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, imports={gradle={wrapper={checksums=[]}}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true, includeDecompiledSources=true}, typeHierarchy={lazyLoad=false}, settings={url=null}, symbols={includeSourceMethodDeclarations=false}, quickfix={showAt=line}, inlayHints={parameterNames={enabled=literals, exclusions=[]}}, codeAction={sortMembers={avoidVolatileChanges=true}}, compile={nullAnalysis={nonnull=[javax.annotation.Nonnull, org.eclipse.jdt.annotation.NonNull, org.springframework.lang.NonNull], nullable=[javax.annotation.Nullable, org.eclipse.jdt.annotation.Nullable, org.springframework.lang.Nullable], mode=interactive}}, cleanup={actionsOnSave=[]}, sharedIndexes={enabled=auto, location=}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.501
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.561
+!MESSAGE >> Updating classpath for project test_84181c46
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-09-24 19:17:52.576
+!MESSAGE Error occured while building workspace. Details: 
+ message: Syntax error on token "void", record expected; code: 1610612940; resource: /Users/chaitanyashahare/Documents/test/testingSpeeds/HelloWorld.java; line: 2
+ message: Syntax error on token ".", @ expected after this token; code: 1610612967; resource: /Users/chaitanyashahare/Documents/test/testingSpeeds/HelloWorld.java; line: 3
+ message: Syntax error, insert "SimpleName" to complete QualifiedName; code: 1610612976; resource: /Users/chaitanyashahare/Documents/test/testingSpeeds/HelloWorld.java; line: 3
+ message: Syntax error, insert "Identifier (" to complete MethodHeaderName; code: 1610612976; resource: /Users/chaitanyashahare/Documents/test/testingSpeeds/HelloWorld.java; line: 3
+ message: Syntax error, insert ")" to complete MethodDeclaration; code: 1610612976; resource: /Users/chaitanyashahare/Documents/test/testingSpeeds/HelloWorld.java; line: 3
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.638
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.661
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.661
+!MESSAGE 5 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.663
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.681
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.685
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.686
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.686
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.701
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.702
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.704
+!MESSAGE >> workspace/executeCommand java.project.getSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.704
+!MESSAGE >> workspace/executeCommand java.project.getClasspaths
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:52.943
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:53.701
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:55.259
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:55.265
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:55.700
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:55.700
+!MESSAGE 5 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:55.701
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:55.920
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:55.926
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:55.926
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:55.948
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:56.344
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:56.345
+!MESSAGE 5 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:56.345
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:57.546
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:57.557
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:57.684
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:57.734
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:57.741
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:57.943
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:58.163
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:58.164
+!MESSAGE 5 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:17:58.165
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:02.315
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:02.322
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:02.622
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:02.630
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:03.046
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:03.047
+!MESSAGE 5 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:03.047
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:03.101
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:03.105
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:03.109
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:03.127
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:03.132
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:03.529
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:03.529
+!MESSAGE 6 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:03.531
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:03.766
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:03.984
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:05.953
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:05.958
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:05.962
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:05.962
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:05.967
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:06.373
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:06.374
+!MESSAGE 6 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:06.374
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:06.788
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:06.804
+!MESSAGE >> workspace/executeCommand java.completion.onDidSelect
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:06.809
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:06.812
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:06.849
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:07.102
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:07.105
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:07.107
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:07.111
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:07.365
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:07.368
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:07.374
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:07.394
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:07.398
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:07.792
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:07.792
+!MESSAGE 6 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:07.793
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:07.801
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:07.808
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:07.812
+!MESSAGE >> workspace/executeCommand java.completion.onDidSelect
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:07.813
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:07.814
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:08.228
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:08.228
+!MESSAGE 6 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:08.229
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:08.290
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:08.293
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:08.294
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:08.297
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:08.715
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:08.715
+!MESSAGE 6 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:08.717
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:09.305
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:09.325
+!MESSAGE Reconciled 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:09.817
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:09.817
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:09.817
+!MESSAGE Validated 1. Took 88 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:10.129
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:11.034
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:11.096
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:11.502
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:11.511
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:11.511
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:11.511
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:11.518
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:11.946
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:11.947
+!MESSAGE 1 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:11.947
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:12.136
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:12.143
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:12.563
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:12.564
+!MESSAGE 0 problems reported for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:12.564
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:12.588
+!MESSAGE >> textDocument/inlayHint
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:13.515
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:13.532
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:13.558
+!MESSAGE begin problem for /HelloWorld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:13.558
+!MESSAGE 0 problems reported for /HelloWorld.java
