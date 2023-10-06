@@ -179,6 +179,19 @@ nnoremap <leader>w :w!<CR>
 nnoremap <C-p> :FZF<CR>
 nnoremap <C-n> :NvimTreeToggle<CR>
 
+" Toggle relative line numbers on and off with <leader>rn
+nnoremap <leader>ln :call ToggleRelativeLineNumbers()<CR>
+
+function! ToggleRelativeLineNumbers()
+  if &relativenumber
+    set norelativenumber
+    " set number
+  else
+    set relativenumber
+    " set nonumber
+  endif
+endfunction
+
 autocmd Filetype markdown source ~/.config/nvim/scripts/markdown.vim
 
 
