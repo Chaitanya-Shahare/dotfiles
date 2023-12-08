@@ -2383,3 +2383,366 @@ Command-line arguments:  -data /Users/chaitanyashahare/.config/coc/extensions/co
 
 !ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-24 19:18:13.558
 !MESSAGE 0 problems reported for /HelloWorld.java
+!SESSION 2023-11-13 19:54:11.486 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.1
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-13 19:54:12.163
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:12.581
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:12.668
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:12.686
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:12.687
+!MESSAGE Initializing Java Language Server 1.19.0.202301170526
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:12.698
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:12.698
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:12.701
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:12.701
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:13.049
+!MESSAGE ProjectRegistryRefreshJob finished 348ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:13.049
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:13.060
+!MESSAGE Started org.eclipse.buildship.core 11ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:13.071
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:13.077
+!MESSAGE RepositoryRegistryUpdateJob finished 13ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:13.434
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:32.855
+!MESSAGE Workspace initialized in 19791ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:32.867
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:32.869
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:32.875
+!MESSAGE Setting java.home /opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:32.878
+!MESSAGE Default VM Install changed from  com.oracle.java.jdk-/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home to 1699885472873-/opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:32.900
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:32.901
+!MESSAGE >> java/buildWorkspace (full)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:32.903
+!MESSAGE >> New configuration: {java={enabled=true, home=/opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home, jdt={ls={directory=null, statusIcons=null, java={home=null}, vmargs=-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable, lombokSupport={enabled=true}, protobufSupport={enabled=true}, androidSupport={enabled=false}}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=false, updateBuildConfiguration=interactive, maven={userSettings=null, globalSettings=null, notCoveredPluginExecutionSeverity=warning}, workspaceCacheLimit=90.0, runtimes=[]}, trace={server=off}, import={maven={enabled=true, offline={enabled=false}}, gradle={enabled=true, wrapper={enabled=true}, version=null, home=null, java={home=null}, offline={enabled=false}, arguments=null, jvmArguments=null, user={home=null}, annotationProcessing={enabled=true}}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], generatesMetadataFilesAtProjectRoot=false}, maven={downloadSources=false, updateSnapshots=false}, eclipse={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=true, description={enabled=false}}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], importOnFirstTimeStartup=automatic, importHint=true, resourceFilters=[node_modules, \.git], encoding=ignore}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, recommendations={dependency={analytics={show=true}}}, completion={maxResults=0.0, enabled=true, guessMethodArguments=true, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*, sun.*, jdk.*, org.graalvm.*, io.micrometer.shaded.*], importOrder=[#, java, javax, org, com, ], postfix={enabled=true}, matchCase=off}, foldingRange={enabled=true}, progressReports={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}, insertionLocation=afterCursor}, selectionRange={enabled=true}, showBuildStatusOnStart={enabled=notification}, server={launchMode=Standard}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, imports={gradle={wrapper={checksums=[]}}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true, includeDecompiledSources=true}, typeHierarchy={lazyLoad=false}, settings={url=null}, symbols={includeSourceMethodDeclarations=false}, quickfix={showAt=line}, inlayHints={parameterNames={enabled=literals, exclusions=[]}}, codeAction={sortMembers={avoidVolatileChanges=true}}, compile={nullAnalysis={nonnull=[javax.annotation.Nonnull, org.eclipse.jdt.annotation.NonNull, org.springframework.lang.NonNull], nullable=[javax.annotation.Nullable, org.eclipse.jdt.annotation.Nullable, org.springframework.lang.Nullable], mode=interactive}}, cleanup={actionsOnSave=[]}, sharedIndexes={enabled=auto, location=}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:32.904
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:33.233
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:33.472
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:33.481
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:33.488
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:33.702
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:33.709
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:33.709
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:33.714
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:33.715
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:33.726
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:33.726
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:33.729
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:33.730
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:34.133
+!MESSAGE begin problem for /Greeting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:34.133
+!MESSAGE 0 problems reported for /Greeting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:34.135
+!MESSAGE Validated 1. Took 387 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:34.155
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:34.157
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:34.159
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:34.160
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:34.172
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:34.172
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:54:34.175
+!MESSAGE >> workspace/executeCommand java.project.getClasspaths
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:01.900
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:01.951
+!MESSAGE >> workspace/executeCommand java.project.getSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:01.952
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:02.389
+!MESSAGE begin problem for /Greeting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:02.389
+!MESSAGE 0 problems reported for /Greeting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:02.398
+!MESSAGE begin problem for /GreetingController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:02.399
+!MESSAGE 0 problems reported for /GreetingController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:02.399
+!MESSAGE Validated 2. Took 45 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:05.679
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:05.728
+!MESSAGE Reconciled 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:05.833
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:06.151
+!MESSAGE begin problem for /Greeting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:06.151
+!MESSAGE 0 problems reported for /Greeting.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:06.169
+!MESSAGE begin problem for /GreetingController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:06.169
+!MESSAGE 0 problems reported for /GreetingController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:06.170
+!MESSAGE Validated 2. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:06.916
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:06.942
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:07.229
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:07.232
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:07.414
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:07.418
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:07.732
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:09.659
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:09.977
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:09.982
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:10.159
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:10.162
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:10.346
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:10.350
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:10.660
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:18.404
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:19.726
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 19:55:20.881
+!MESSAGE >> document/didClose
+!SESSION 2023-11-13 20:04:37.939 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.1
+java.vendor=Homebrew
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Command-line arguments:  -data /Users/chaitanyashahare/.config/coc/extensions/coc-java-data/jdt_ws
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-13 20:04:38.618
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:39.120
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:39.215
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:39.253
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:39.254
+!MESSAGE Initializing Java Language Server 1.19.0.202301170526
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:39.265
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:39.265
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:39.268
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:39.268
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:39.270
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:39.270
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:39.303
+!MESSAGE Started org.eclipse.buildship.core 33ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:39.334
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:40.037
+!MESSAGE RepositoryRegistryUpdateJob finished 372ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:40.211
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:40.284
+!MESSAGE Workspace initialized in 619ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:40.297
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:40.299
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:40.309
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:40.314
+!MESSAGE >> New configuration: {java={enabled=true, home=/opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home, jdt={ls={directory=null, statusIcons=null, java={home=null}, vmargs=-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable, lombokSupport={enabled=true}, protobufSupport={enabled=true}, androidSupport={enabled=false}}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=false, updateBuildConfiguration=interactive, maven={userSettings=null, globalSettings=null, notCoveredPluginExecutionSeverity=warning}, workspaceCacheLimit=90.0, runtimes=[]}, trace={server=off}, import={maven={enabled=true, offline={enabled=false}}, gradle={enabled=true, wrapper={enabled=true}, version=null, home=null, java={home=null}, offline={enabled=false}, arguments=null, jvmArguments=null, user={home=null}, annotationProcessing={enabled=true}}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], generatesMetadataFilesAtProjectRoot=false}, maven={downloadSources=false, updateSnapshots=false}, eclipse={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=true, description={enabled=false}}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], importOnFirstTimeStartup=automatic, importHint=true, resourceFilters=[node_modules, \.git], encoding=ignore}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, recommendations={dependency={analytics={show=true}}}, completion={maxResults=0.0, enabled=true, guessMethodArguments=true, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*, sun.*, jdk.*, org.graalvm.*, io.micrometer.shaded.*], importOrder=[#, java, javax, org, com, ], postfix={enabled=true}, matchCase=off}, foldingRange={enabled=true}, progressReports={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}, insertionLocation=afterCursor}, selectionRange={enabled=true}, showBuildStatusOnStart={enabled=notification}, server={launchMode=Standard}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, imports={gradle={wrapper={checksums=[]}}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true, includeDecompiledSources=true}, typeHierarchy={lazyLoad=false}, settings={url=null}, symbols={includeSourceMethodDeclarations=false}, quickfix={showAt=line}, inlayHints={parameterNames={enabled=literals, exclusions=[]}}, codeAction={sortMembers={avoidVolatileChanges=true}}, compile={nullAnalysis={nonnull=[javax.annotation.Nonnull, org.eclipse.jdt.annotation.NonNull, org.springframework.lang.NonNull], nullable=[javax.annotation.Nullable, org.eclipse.jdt.annotation.Nullable, org.springframework.lang.Nullable], mode=interactive}}, cleanup={actionsOnSave=[]}, sharedIndexes={enabled=auto, location=}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:40.315
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:41.705
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:42.174
+!MESSAGE begin problem for /GreetingController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:42.174
+!MESSAGE 0 problems reported for /GreetingController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:42.178
+!MESSAGE Validated 1. Took 449 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:42.205
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:42.207
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:42.209
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:42.210
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:42.224
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:42.225
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:42.228
+!MESSAGE >> workspace/executeCommand java.project.getSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:42.231
+!MESSAGE >> workspace/executeCommand java.project.getClasspaths
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:44.724
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:44.864
+!MESSAGE >> java/buildWorkspace (full)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-13 20:04:44.865
+!MESSAGE >> New configuration: {java={enabled=true, home=/opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home, jdt={ls={directory=null, statusIcons=null, java={home=null}, vmargs=-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable, lombokSupport={enabled=true}, protobufSupport={enabled=true}, androidSupport={enabled=false}}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=false, updateBuildConfiguration=interactive, maven={userSettings=null, globalSettings=null, notCoveredPluginExecutionSeverity=warning}, workspaceCacheLimit=90.0, runtimes=[]}, trace={server=off}, import={maven={enabled=true, offline={enabled=false}}, gradle={enabled=true, wrapper={enabled=true}, version=null, home=null, java={home=null}, offline={enabled=false}, arguments=null, jvmArguments=null, user={home=null}, annotationProcessing={enabled=true}}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], generatesMetadataFilesAtProjectRoot=false}, maven={downloadSources=false, updateSnapshots=false}, eclipse={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=true, description={enabled=false}}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], importOnFirstTimeStartup=automatic, importHint=true, resourceFilters=[node_modules, \.git], encoding=ignore}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, recommendations={dependency={analytics={show=true}}}, completion={maxResults=0.0, enabled=true, guessMethodArguments=true, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*, sun.*, jdk.*, org.graalvm.*, io.micrometer.shaded.*], importOrder=[#, java, javax, org, com, ], postfix={enabled=true}, matchCase=off}, foldingRange={enabled=true}, progressReports={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}, insertionLocation=afterCursor}, selectionRange={enabled=true}, showBuildStatusOnStart={enabled=notification}, server={launchMode=Standard}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, imports={gradle={wrapper={checksums=[]}}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true, includeDecompiledSources=true}, typeHierarchy={lazyLoad=false}, settings={url=null}, symbols={includeSourceMethodDeclarations=false}, quickfix={showAt=line}, inlayHints={parameterNames={enabled=literals, exclusions=[]}}, codeAction={sortMembers={avoidVolatileChanges=true}}, compile={nullAnalysis={nonnull=[javax.annotation.Nonnull, org.eclipse.jdt.annotation.NonNull, org.springframework.lang.NonNull], nullable=[javax.annotation.Nullable, org.eclipse.jdt.annotation.Nullable, org.springframework.lang.Nullable], mode=automatic}}, cleanup={actionsOnSave=[]}, sharedIndexes={enabled=auto, location=}}}

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
     <libraryInfo home="/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home" version="19.0.1"/>
+    <libraryInfo home="/opt/homebrew/Cellar/openjdk/21.0.1/libexec/openjdk.jdk/Contents/Home" version="21.0.1"/>
 </libraryInfos>

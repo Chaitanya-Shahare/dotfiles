@@ -32,3 +32,35 @@ snippet newpage "New lecture no. date & day" b
 > ${4:Day}
 
 ${5}
+
+
+
+
+
+
+snippet img "make a good pdf using pandoc" b
+---
+title: 
+- Manufacturing for Metal Powder Simulation using Arena
+subtitle:
+- Industrial Engineering Assignment II
+author:
+- Chaitanya Shahare 2021BMEC063
+title-meta:
+- 2021BMEC063
+- Industrial Engineering Assignment II
+date: "24 November 2023"
+geometry: "margin=1in"
+header-includes:
+    - \usepackage{fancyhdr}
+    - \pagestyle{fancy}
+    - \renewcommand{\headrulewidth}{0pt}
+    - \usepackage{float}
+    - \let\origfigure\figure
+    - \let\endorigfigure\endfigure 
+    - \renewenvironment{figure}[1][2] {
+      \expandafter\origfigure\expandafter[H]
+			} {
+				\endorigfigure
+			}
+---

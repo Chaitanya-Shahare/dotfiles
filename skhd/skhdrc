@@ -135,6 +135,7 @@ ctrl + alt - up : yabai -m window --resize top:0:-20;  yabai -m window --resize 
 # hyper - t : osascript -e 'tell application "iTerm" to activate' -e 'tell application "iTerm" to tell (create window with default profile) to tell current session to write text "clear && figlet Hello, Daddy && say Hello Daddy oh yeaaaaaaaaaaaaah, fuck me daddy"'
 
 hyper - t : osascript -e 'tell application "iTerm" to activate' -e 'tell application "iTerm" to tell (create window with default profile) to tell current session to write text "clear && figlet Hello, Chaitanya"'
+# hyper - t : alacritty
 hyper - c : osascript -e 'tell application "Google Chrome" to activate' -e 'tell application "Google Chrome" to make new window'
 hyper - v : code -n
 hyper - w : osascript -e 'tell application "Safari" to activate' -e 'tell application "Safari" to make new document'
@@ -143,4 +144,8 @@ hyper - s : open ~/shaharechaitanya2@gmail.com\ -\ Google\ Drive/My\ Drive/Colle
 hyper - b : osascript -e 'tell application "iTerm" to activate' -e 'tell application "iTerm" to tell (create window with default profile) to tell current session to write text "openBlog"'
 hyper - m : osascript -e 'tell application "Google Chrome" to activate' -e 'tell application "Google Chrome" to make new window with properties {mode:"incognito"}' -e 'tell application "Google Chrome" to set URL of active tab of front window to "https://www.pornhat.com/"'
 hyper - e : open ~/Downloads
-hyper - z : osascript -e 'tell application "iTerm" to activate' -e 'tell application "iTerm" to tell (create window with default profile) to tell current session to write text "openZalcoFrontend"' -e 'tell application "iTerm" to tell (create window with default profile) to tell current session to write text "openZalcoBackend"' 
+# hyper - z : osascript -e 'tell application "iTerm" to activate' -e 'tell application "iTerm" to tell (create window with default profile) to tell current session to write text "openZalcoFrontend"' -e 'tell application "iTerm" to tell (create window with default profile) to tell current session to write text "openZalcoBackend"' 
+hyper - z : osascript -e 'tell application "iTerm" to activate' -e 'tell application "iTerm" to tell (create window with default profile) to tell current session to write text "openZalcoFrontend"' 
+hyper - p : open -a "Photo Booth"
+ctrl + shift - s : open Applications/Spotify.app
+ctrl + shift - d : open -a "Discord"

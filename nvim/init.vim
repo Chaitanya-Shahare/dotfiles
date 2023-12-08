@@ -6,19 +6,17 @@
 call plug#begin()
 
 " Utility
-	" Plug 'christoomey/vim-tmux-navigator'
 		 " Plug 'sheerun/vim-polyglot'
 		 " Plug 'itchyny/lightline.vim'
+		 Plug 'christoomey/vim-tmux-navigator'
 		 Plug 'nvim-lualine/lualine.nvim'
 		 Plug 'tpope/vim-commentary'
 		 Plug 'tpope/vim-surround'
 		 Plug 'alvan/vim-closetag'
 		 Plug 'lukas-reineke/indent-blankline.nvim'
-		 Plug 'ekickx/clipboard-image.nvim'
 		 Plug 'img-paste-devs/img-paste.vim' 
-		 "https://github.com/img-paste-devs/img-paste.vim
 		 Plug 'psliwka/vim-smoothie'
-		 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+		 " Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 		 Plug 'scrooloose/NERDTree'
 		 Plug 'ryanoasis/vim-devicons'
 		 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -32,16 +30,18 @@ call plug#begin()
 		 Plug 'lewis6991/gitsigns.nvim'
 		 Plug 'NTBBloodbath/color-converter.nvim'
 		 Plug 'nvim-lua/plenary.nvim'
-		 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.1' }
+		 Plug 'nvim-telescope/telescope.nvim'
 		 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 		 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 'markdown' }
 		 Plug 'akinsho/toggleterm.nvim'
-		 Plug 'mbbill/undotree'
+		 " Plug 'mbbill/undotree'
 		 Plug 'github/copilot.vim'
 		 Plug 'folke/zen-mode.nvim'
 		 Plug 'nvim-tree/nvim-tree.lua'
 		 Plug 'nvim-tree/nvim-web-devicons'
 		 Plug 'folke/todo-comments.nvim'
+		 Plug 'stevearc/aerial.nvim'
+		 Plug 'simrat39/symbols-outline.nvim'
 		 " Colorschemes
 		 Plug 'EdenEast/nightfox.nvim'
 		 Plug 'rebelot/kanagawa.nvim'
@@ -77,12 +77,15 @@ set tabstop=2
 set shiftwidth=2
 set autoindent
 set smartindent
-set mouse=a
+set mouse=a mousefocus
 set splitright
 set splitbelow
 set noshowmode
+set ignorecase
 " set listchars=tab:\|\ 
 " set list
+
+" focus on mouse hover in nvim split panes
 
 
 colo kanagawa-dragon
@@ -94,8 +97,8 @@ colo kanagawa-dragon
 " au ColorScheme * hi Normal ctermbg=none guibg=none
 
 " text folding
-" autocmd BufWinLeave *.* silent mkview
-" autocmd BufWinEnter *.* silent loadview
+autocmd BufWinLeave *.* silent mkview
+autocmd BufWinEnter *.* silent loadview
 
 " autocmd BufWritePre * silent Format
 autocmd BufWritePre ~/Documents/Barosa/* silent :Format
@@ -173,10 +176,7 @@ nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 nnoremap <f3> :w <CR>
 nnoremap <leader>w :w!<CR>
 
-" Lazygit
-" nnoremap <C-\> :LazyGit<CR>
 
-nnoremap <C-p> :FZF<CR>
 nnoremap <C-n> :NvimTreeToggle<CR>
 
 " Toggle relative line numbers on and off with <leader>rn
@@ -191,6 +191,10 @@ function! ToggleRelativeLineNumbers()
     " set nonumber
   endif
 endfunction
+
+" Toggle github copilot
+nnoremap <leader>gce :Copilot enable<CR>
+nnoremap <leader>gcd :Copilot disable<CR>
 
 autocmd Filetype markdown source ~/.config/nvim/scripts/markdown.vim
 
@@ -212,27 +216,40 @@ EOF
 nnoremap <leader>z :ZenMode<CR>
 
 
-" lightline -----------------------------------------------------------------------
-" let g:lightline = {
- " \ 'separator': { 'left': '', 'right': '' },
- " \ 'subseparator': { 'left': '', 'right': '' }
- " \ }
- " let g:lightline = {
-			 " \ 'colorscheme': 'carbonfox',
-			 " \ 'background': 'dark',
-			 " \ 'component_function': {
-			 " \   'gitbranch': 'FugitiveHead'
-			 " \ },
-			 " \ 'active': {
-			 " \   'left': [ [ 'mode', 'paste' ],
-			 " \             [ 'filename', 'modified', 'gitbranch', 'readonly'] ]
-			 " \ },
-			 " \ 'separator': { 'left': '', 'right': '' },
-			 " \ 'subseparator': { 'left': '', 'right': '' }
-			 " \ }
+"
+" + toggle remap arrow keys to resize windows
+"
+nnoremap <leader>r :call ToggleResizeMode()<CR>
 
+let s:KeyResizeEnabled = 0
 
+function! ToggleResizeMode()
+  if s:KeyResizeEnabled
+    call NormalArrowKeys()
+    let s:KeyResizeEnabled = 0
+  else
+    call ResizeArrowKeys()
+    let s:KeyResizeEnabled = 1
+  endif
+endfunction
 
+function! NormalArrowKeys()
+  " unmap arrow keys
+  echo 'normal hjkl keys'
+  nunmap k
+  nunmap j
+  nunmap h
+  nunmap l
+endfunction
+
+function! ResizeArrowKeys()
+  " Remap arrow keys to resize window
+  echo 'Resize window with hjkl keys'
+  nnoremap k    :resize +2<CR>
+  nnoremap j  :resize -2<CR>
+  nnoremap h  :vertical resize -2<CR>
+  nnoremap l :vertical resize +2<CR>
+endfunction
 
 
 " lualine -----------------------------------------------------------------------
@@ -241,8 +258,10 @@ require('lualine').setup {
   options = {
     icons_enabled = true,
     theme = 'auto',
-    component_separators = { left = '', right = ''},
-    section_separators = { left = '', right = ''},
+    --component_separators = { left = '', right = ''},
+    --section_separators = { left = '', right = ''},
+		section_separators = '',
+		component_separators = '',
     disabled_filetypes = {
       statusline = {},
       winbar = {},
@@ -282,7 +301,8 @@ require('lualine').setup {
 					}
 					}
 			},
-    lualine_x = {'encoding', 'fileformat', 'filetype'},
+    -- lualine_x = {'encoding', 'fileformat', 'filetype'},
+    lualine_x = {'fileformat', 'filetype'},
     lualine_y = {'progress'},
     lualine_z = {'location'}
   },
@@ -321,6 +341,31 @@ require('lualine').setup {
   inactive_winbar = {},
   extensions = {}
 }
+local mode_map = {
+  ['NORMAL'] = 'NOR',
+  ['INSERT'] = 'INS',
+  ['VISUAL'] = 'VIS',
+-- 	['O-PENDING'] = 'NOR?',
+--  ['V-BLOCK'] = 'VB',
+--  ['V-LINE'] = 'VL',
+--  ['V-REPLACE'] = 'VR',
+--  ['REPLACE'] = 'R',
+--  ['COMMAND'] = '!',
+		['COMMAND'] = 'COM',
+--  ['SHELL'] = 'SH',
+--  ['TERMINAL'] = 'T',
+--  ['EX'] = 'X',
+--  ['S-BLOCK'] = 'SB',
+--  ['S-LINE'] = 'SL',
+--  ['SELECT'] = 'S',
+--  ['CONFIRM'] = 'Y?',
+--  ['MORE'] = 'M',
+}
+require('lualine').setup({
+  sections = {
+    lualine_a = { {'mode', fmt = function(s) return mode_map[s] or s end} },
+  }
+})
 EOF
 
 " coc -----------------------------------------------------------------------------
@@ -502,7 +547,7 @@ lua << EOF
 		lazygit:toggle()
 	end
 
-	vim.api.nvim_set_keymap("n", "<leader>g", "<cmd>lua _lazygit_toggle()<CR>", {noremap = true, silent = true})
+	vim.api.nvim_set_keymap("n", "<leader>gg", "<cmd>lua _lazygit_toggle()<CR>", {noremap = true, silent = true})
 EOF
 
 " nvim-tree
@@ -554,30 +599,6 @@ require("nvim-tree").setup({
 })
 EOF
 
-
-" Clipboard image
-lua << EOF
-require'clipboard-image'.setup {
-  -- Default configuration for all filetype
-  default = {
-    img_dir = "images",
-    img_name = function() return os.date('%Y-%m-%d-%H-%M-%S') end, -- Example result: "2021-04-13-10-04-18"
-    affix = "<\n  %s\n>" -- Multi lines affix
-  },
-  -- You can create configuration for ceartain filetype by creating another field (markdown, in this case)
-  -- If you're uncertain what to name your field to, you can run `lua print(vim.bo.filetype)`
-  -- Missing options from `markdown` field will be replaced by options from `default` field
-  -- markdown = {
-  --   img_dir = {"src", "assets", "img"}, -- Use table for nested dir (New feature form PR #20)
-  --   img_dir_txt = "/assets/img",
-  --   img_handler = function(img) -- New feature from PR #22
-  --     local script = string.format('./image_compressor.sh "%s"', img.path)
-  --     os.execute(script)
-  --   end,
-  -- }
-}
-EOF
-
 " img paste.vim
 autocmd FileType markdown nmap <buffer><silent> <leader>p :call mdip#MarkdownClipboardImage()<CR>
 " there are some defaults for image directory and image name, you can change them
@@ -590,3 +611,85 @@ require("todo-comments").setup()
 EOF
 
 
+" ariel.nvim
+lua << EOF
+require("aerial").setup({
+  -- optionally use on_attach to set keymaps when aerial has attached to a buffer
+  on_attach = function(bufnr)
+    -- Jump forwards/backwards with '{' and '}'
+    vim.keymap.set("n", "{", "<cmd>AerialPrev<CR>", { buffer = bufnr })
+    vim.keymap.set("n", "}", "<cmd>AerialNext<CR>", { buffer = bufnr })
+  end,
+})
+-- You probably also want to set a keymap to toggle aerial
+vim.keymap.set("n", "<leader>a", "<cmd>AerialToggle!<CR>")
+EOF
+
+" symbols-outline
+lua << EOF
+require('symbols-outline').setup(
+{
+  highlight_hovered_item = true,
+  show_guides = true,
+  auto_preview = false,
+  position = 'right',
+  relative_width = true,
+  width = 25,
+  auto_close = false,
+  show_numbers = false,
+  show_relative_numbers = false,
+  show_symbol_details = true,
+  preview_bg_highlight = 'Pmenu',
+  autofold_depth = nil,
+  auto_unfold_hover = true,
+  fold_markers = { '', '' },
+  wrap = false,
+  keymaps = { -- These keymaps can be a string or a table for multiple keys
+    close = {"<Esc>", "q"},
+    goto_location = "<Cr>",
+    focus_location = "o",
+    hover_symbol = "<C-space>",
+    toggle_preview = "K",
+    rename_symbol = "r",
+    code_actions = "a",
+    fold = "h",
+    unfold = "l",
+    fold_all = "W",
+    unfold_all = "E",
+    fold_reset = "R",
+  },
+  lsp_blacklist = {},
+  symbol_blacklist = {},
+  symbols = {
+    File = { icon = "", hl = "@text.uri" },
+    Module = { icon = "", hl = "@namespace" },
+    Namespace = { icon = "", hl = "@namespace" },
+    Package = { icon = "", hl = "@namespace" },
+    Class = { icon = "𝓒", hl = "@type" },
+    Method = { icon = "ƒ", hl = "@method" },
+    Property = { icon = "", hl = "@method" },
+    Field = { icon = "", hl = "@field" },
+    Constructor = { icon = "", hl = "@constructor" },
+    Enum = { icon = "ℰ", hl = "@type" },
+    Interface = { icon = "ﰮ", hl = "@type" },
+    Function = { icon = "", hl = "@function" },
+    Variable = { icon = "", hl = "@constant" },
+    Constant = { icon = "", hl = "@constant" },
+    String = { icon = "𝓐", hl = "@string" },
+    Number = { icon = "#", hl = "@number" },
+    Boolean = { icon = "⊨", hl = "@boolean" },
+    Array = { icon = "", hl = "@constant" },
+    Object = { icon = "⦿", hl = "@type" },
+    Key = { icon = "🔐", hl = "@type" },
+    Null = { icon = "NULL", hl = "@type" },
+    EnumMember = { icon = "", hl = "@field" },
+    Struct = { icon = "𝓢", hl = "@type" },
+    Event = { icon = "🗲", hl = "@type" },
+    Operator = { icon = "+", hl = "@operator" },
+    TypeParameter = { icon = "𝙏", hl = "@parameter" },
+    Component = { icon = "", hl = "@function" },
+    Fragment = { icon = "", hl = "@constant" },
+  },
+}
+)
+EOF
